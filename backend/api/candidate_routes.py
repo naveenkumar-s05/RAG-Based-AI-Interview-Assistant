@@ -12,13 +12,9 @@ from pydantic import (
     BaseModel,
     field_validator
 )
-
-from pymongo import (
-    MongoClient,
-    ASCENDING,
-    DESCENDING
-)
-
+from database.mongodb import candidates_collection
+from pymongo import ASCENDING, DESCENDING
+from ml.predictor import predict_job_readiness
 
 # =====================================================
 # LOAD ENVIRONMENT VARIABLES
@@ -35,75 +31,6 @@ router = APIRouter(
     prefix="/candidates",
     tags=["Candidates"]
 )
-
-
-# =====================================================
-# MONGODB ATLAS CONFIGURATION
-# =====================================================
-
-MONGODB_URI = os.getenv(
-    "MONGODB_URI"
-)
-
-
-if not MONGODB_URI:
-
-    raise RuntimeError(
-        "MONGODB_URI is not configured in .env"
-    )
-
-
-# =====================================================
-# MONGODB CLIENT
-# =====================================================
-
-client = MongoClient(
-    MONGODB_URI
-)
-
-
-# =====================================================
-# DATABASE
-# =====================================================
-
-database = client[
-    "AIInterviewAssistant"
-]
-
-
-# =====================================================
-# COLLECTION
-# =====================================================
-
-candidates_collection = database[
-    "candidates"
-]
-
-
-# =====================================================
-# DATABASE INDEXES
-# =====================================================
-
-candidates_collection.create_index(
-    [
-        (
-            "candidate_id",
-            ASCENDING
-        )
-    ],
-    unique=True
-)
-
-
-candidates_collection.create_index(
-    [
-        (
-            "created_at",
-            DESCENDING
-        )
-    ]
-)
-
 
 # =====================================================
 # CANDIDATE CREATE MODEL
@@ -234,7 +161,14 @@ def create_candidate(
 
         "communication":
             None,
+        # ---------------------------------------------
+        # XGBOOST JOB READINESS
+        # ---------------------------------------------
+        "job_readiness":
+            None,
 
+        "job_readiness_confidence":
+            None,
         # ---------------------------------------------
         # SECTION SCORES
         # ---------------------------------------------
@@ -380,6 +314,64 @@ def update_candidate_result(
     ).isoformat()
 
 
+    # =================================================
+    # XGBOOST JOB READINESS PREDICTION
+    # =================================================
+
+    job_readiness = None
+
+    job_readiness_confidence = None
+
+
+    # -------------------------------------------------
+    # Make prediction only when all five skill scores
+    # are available
+    # -------------------------------------------------
+
+    if (
+        payload.technical_knowledge is not None
+        and
+        payload.problem_solving is not None
+        and
+        payload.logical_thinking is not None
+        and
+        payload.programming is not None
+        and
+        payload.communication is not None
+    ):
+
+        prediction = predict_job_readiness(
+
+            technical_knowledge=
+                payload.technical_knowledge,
+
+            problem_solving=
+                payload.problem_solving,
+
+            logical_thinking=
+                payload.logical_thinking,
+
+            programming_coding=
+                payload.programming,
+
+            communication=
+                payload.communication
+        )
+
+
+        job_readiness = prediction[
+            "job_readiness"
+        ]
+
+        job_readiness_confidence = prediction[
+            "confidence"
+        ]
+
+
+    # =================================================
+    # SAVE RESULT TO MONGODB
+    # =================================================
+
     result = candidates_collection.update_one(
 
         {
@@ -396,6 +388,7 @@ def update_candidate_result(
 
                 "overall_score":
                     payload.overall_score,
+
 
                 # -------------------------------------
                 # SKILL ASSESSMENT
@@ -416,6 +409,18 @@ def update_candidate_result(
                 "communication":
                     payload.communication,
 
+
+                # -------------------------------------
+                # XGBOOST JOB READINESS
+                # -------------------------------------
+
+                "job_readiness":
+                    job_readiness,
+
+                "job_readiness_confidence":
+                    job_readiness_confidence,
+
+
                 # -------------------------------------
                 # SECTION SCORES
                 # -------------------------------------
@@ -429,12 +434,14 @@ def update_candidate_result(
                 "coding_score":
                     payload.coding_score,
 
+
                 # -------------------------------------
                 # STATUS
                 # -------------------------------------
 
                 "status":
                     payload.status,
+
 
                 # -------------------------------------
                 # COMPLETION TIME
@@ -448,9 +455,9 @@ def update_candidate_result(
     )
 
 
-    # ---------------------------------------------
-    # Candidate does not exist
-    # ---------------------------------------------
+    # =================================================
+    # CANDIDATE DOES NOT EXIST
+    # =================================================
 
     if result.matched_count == 0:
 
@@ -459,6 +466,10 @@ def update_candidate_result(
             detail="Candidate not found."
         )
 
+
+    # =================================================
+    # RESPONSE
+    # =================================================
 
     return {
 
@@ -469,9 +480,17 @@ def update_candidate_result(
             candidate_id,
 
         "status":
-            payload.status
+            payload.status,
+
+        "job_readiness":
+            job_readiness,
+
+        "job_readiness_confidence":
+            job_readiness_confidence
     }
 
+    
+    
 
 # =====================================================
 # GET ALL CANDIDATES

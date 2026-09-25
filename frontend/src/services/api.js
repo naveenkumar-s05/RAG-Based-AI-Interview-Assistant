@@ -1,4 +1,5 @@
-const API_BASE_URL = "https://rag-based-ai-interview-assistant.onrender.com";
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
 export async function startInterview() {
   const response = await fetch(

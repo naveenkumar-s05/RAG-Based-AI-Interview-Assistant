@@ -261,90 +261,91 @@ class ResumeInterviewer:
         # -------------------------------------------------
 
         prompt = f"""
-You are an AI technical interviewer.
+        You are an AI technical interviewer.
 
-Topic:
-{topic}
+        Topic:
+        {topic}
 
-Difficulty:
-{difficulty}
+        Difficulty:
+        {difficulty}
 
-Previous question:
-{previous_question}
+        Previous question:
+        {previous_question}
 
-Candidate's answer:
-{candidate_answer}
+        Candidate's answer:
+        {candidate_answer}
 
-Relevant resume evidence:
---------------------------------
-{resume_context}
---------------------------------
+        Relevant resume evidence:
+        --------------------------------
+        {resume_context}
+        --------------------------------
 
-Generate ONE short adaptive follow-up question.
+        Generate ONE short adaptive follow-up question.
 
-STRICT RULES:
+        STRICT RULES:
 
-1. Keep the question between 8 and 18 words.
+        1. Keep the question between 8 and 18 words.
 
-2. Ask exactly ONE question.
+        2. Ask exactly ONE question.
 
-3. Focus on ONE technical concept.
+        3. Focus on ONE technical concept.
 
-4. The candidate's answer is the PRIMARY basis
-   for the follow-up.
+        4. The candidate's answer is the PRIMARY basis
+        for the follow-up.
 
-5. Identify one technical point from the answer
-   that can be explored further.
+        5. Identify one technical point from the answer
+        that can be explored further.
 
-6. The follow-up must remain related to the
-   previous question.
+        6. The follow-up must remain related to the
+        previous question.
 
-7. Do NOT simply repeat the previous question.
+        7. Do NOT simply repeat the previous question.
 
-8. Do NOT ask about an unrelated topic.
+        8. Do NOT ask about an unrelated topic.
 
-9. Do NOT assume an implementation detail that
-   the candidate did not mention.
+        9. Do NOT assume an implementation detail that
+        the candidate did not mention.
 
-10. If the candidate mentions a specific
-    technique, method, component, or decision,
-    explore that point.
+        10. If the candidate mentions a specific
+            technique, method, component, or decision,
+            explore that point.
 
-11. If the candidate gives a vague answer,
-    ask a simple conceptual question about
-    the same topic.
+        11. If the candidate gives a vague answer,
+            ask a simple conceptual question about
+            the same topic.
 
-12. If the candidate says "I don't know",
-    ask a simpler conceptual question about
-    the same topic.
+        12. If the candidate says "I don't know",
+            ask a simpler conceptual question about
+            the same topic.
 
-13. Do NOT combine multiple concepts.
+        13. Do NOT combine multiple concepts.
 
-14. Do NOT ask:
+        14. Do NOT ask:
 
-    "What did you implement?"
-    "How did you implement it?"
-    "Which method did you use?"
+            "What did you implement?"
+            "How did you implement it?"
+            "Which method did you use?"
 
-    unless the candidate explicitly mentioned
-    performing that implementation.
+            unless the candidate explicitly mentioned
+            performing that implementation.
 
-15. Prefer natural interview questions such as:
+        15. Prefer natural interview questions such as:
 
-    "Why is ... useful?"
-    "How does ... work?"
-    "What is the benefit of ...?"
-    "Why would you choose ...?"
+            "Why is ... useful?"
+            "How does ... work?"
+            "What is the benefit of ...?"
+            "Why would you choose ...?"
 
-16. Return ONLY the question.
+        16. Return ONLY the question.
 
-17. Do not provide an answer or explanation.
-"""
+        17. Do not provide an answer or explanation.
+        """
 
         return self.llm.generate(
             prompt
         ).strip()
-    # =====================================================
+    
+        # =====================================================
     # EVALUATE ANSWER FOR FOLLOW-UP
     # =====================================================
 
@@ -356,56 +357,195 @@ STRICT RULES:
         difficulty="Medium"
     ):
         """
-        Decide whether the candidate's answer contains
-        a point worth exploring with a follow-up question.
+        Decide whether a follow-up question is genuinely
+        necessary based on the candidate's answer.
+
+        Follow-ups should be rare and answer-dependent.
         """
 
         prompt = f"""
-You are an AI technical interviewer.
+        You are a strict technical interviewer conducting a
+        resume-based interview.
 
-Topic:
-{topic}
+        Your job is to decide whether the candidate's answer
+        REQUIRES a follow-up question.
 
-Difficulty:
-{difficulty}
+        Topic:
+        {topic}
 
-Previous question:
-{previous_question}
+        Difficulty:
+        {difficulty}
 
-Candidate's answer:
-{candidate_answer}
+        Previous question:
+        {previous_question}
 
-Decide whether a follow-up question would meaningfully
-test the candidate's understanding.
+        Candidate's answer:
+        {candidate_answer}
 
-A follow-up SHOULD be asked when:
-- the candidate mentions an interesting technical point
-  that can be explored further
-- the answer is partially correct
-- the answer is vague but can be clarified
-- the candidate gives a reason that can be examined deeper
-- the candidate mentions a technical concept that needs
-  further explanation
 
-A follow-up SHOULD NOT be asked when:
-- the answer is already sufficiently complete
-- there is no meaningful point to explore
-- asking another question would simply repeat the same concept
-- the candidate clearly answered the question completely
+        IMPORTANT RULE:
 
-Return ONLY one word:
-YES
+        Do NOT ask a follow-up simply because the candidate
+        mentioned a technology, tool, framework, model, project,
+        or technical concept.
 
-or
-NO
-"""
+        Do NOT ask a follow-up just because there is something
+        interesting that could be discussed.
+
+        Do NOT ask a follow-up when the candidate has already
+        given a clear and sufficiently complete answer.
+
+        A follow-up should be asked ONLY when the answer has a
+        clear problem that needs clarification or deeper
+        verification.
+
+
+        ASK FOLLOW-UP ONLY IF:
+
+        1. The answer is clearly incomplete and misses an
+        important part of the question.
+
+        2. The answer is too vague to demonstrate understanding.
+
+        3. The candidate makes an important technical claim
+        but gives no explanation at all, and clarification
+        is necessary to evaluate their knowledge.
+
+        4. The answer contains a contradiction or technically
+        suspicious statement that needs verification.
+
+        5. The candidate gives an incorrect or partially
+        incorrect explanation where a focused follow-up can
+        test whether they actually understand the concept.
+
+        6. The candidate gives an unclear answer that cannot
+        be properly evaluated without clarification.
+
+
+        DO NOT ASK FOLLOW-UP IF:
+
+        1. The answer directly addresses the question.
+
+        2. The answer is reasonably complete for the difficulty
+        level.
+
+        3. The candidate explains the main concept correctly.
+
+        4. The candidate provides a reasonable example when
+        appropriate.
+
+        5. The answer is short but still sufficient.
+
+        6. The answer mentions a technology or tool but does not
+        require further clarification.
+
+        7. The answer could theoretically be explored further,
+        but there is no actual need to do so.
+
+        8. Asking another question would only repeat the same
+        topic.
+
+        9. The answer demonstrates sufficient understanding even
+        if it is not extremely detailed.
+
+
+        IMPORTANT:
+
+        A good technical answer should normally result in NO.
+
+        Follow-ups are exceptions, not the default.
+
+        For example:
+
+        Question:
+        "Explain your Skin Cancer Detection project."
+
+        Answer:
+        "I developed a skin cancer detection system using
+        ResNet50. I fine-tuned the pretrained model on the
+        ISIC dataset and used Flask to provide a web interface
+        where users upload an image and receive the predicted
+        class and confidence."
+
+        Decision:
+        NO
+
+        Reason:
+        The answer is sufficiently complete.
+
+
+        Another example:
+
+        Question:
+        "Explain your Skin Cancer Detection project."
+
+        Answer:
+        "I made a skin cancer detection project using deep
+        learning."
+
+        Decision:
+        YES
+
+        Reason:
+        The answer is too vague and does not explain the model,
+        dataset, or implementation.
+
+
+        Another example:
+
+        Question:
+        "Why did you use ResNet50?"
+
+        Answer:
+        "Because it is a good model."
+
+        Decision:
+        YES
+
+        Reason:
+        The answer is too vague to demonstrate understanding.
+
+
+        Another example:
+
+        Question:
+        "What technologies did you use?"
+
+        Answer:
+        "I used Python, ResNet50, Flask and the ISIC dataset.
+        The model was integrated with Flask so users could upload
+        an image and receive a prediction."
+
+        Decision:
+        NO
+
+        Reason:
+        The answer sufficiently addresses the question.
+
+
+        Return ONLY one word:
+
+        YES
+
+        or
+
+        NO
+        """
 
         result = self.llm.generate(
             prompt
         ).strip().upper()
 
-        return result == "YES"
+        # Handle accidental extra LLM text safely
+        if result.startswith("YES"):
+            return True
 
+        if result.startswith("NO"):
+            return False
+
+        # Safe default:
+        # Do not create unnecessary follow-ups.
+        return False
 
     # =====================================================
     # PROCESS CANDIDATE ANSWER
@@ -453,9 +593,9 @@ NO
             "follow_up_question": follow_up
         }
 
-   # =====================================================
-# RUN RESUME INTERVIEW
-# =====================================================
+    # =====================================================
+    # RUN RESUME INTERVIEW
+    # =====================================================
 
     def run_resume_interview(
         self,
@@ -847,108 +987,108 @@ NO
         )
 
         prompt = f"""
-You are an AI technical interviewer evaluating a candidate's answer
-during a real technical interview.
+        You are an AI technical interviewer evaluating a candidate's answer
+        during a real technical interview.
 
-Evaluation style: MEDIUM STRICTNESS and HUMAN-LIKE.
+        Evaluation style: MEDIUM STRICTNESS and HUMAN-LIKE.
 
-Topic:
-{topic}
+        Topic:
+        {topic}
 
-Difficulty:
-{difficulty}
+        Difficulty:
+        {difficulty}
 
-Interview question:
-{question}
+        Interview question:
+        {question}
 
-Candidate's answer:
-{candidate_answer}
+        Candidate's answer:
+        {candidate_answer}
 
-Relevant resume evidence:
---------------------------------
-{resume_context}
---------------------------------
+        Relevant resume evidence:
+        --------------------------------
+        {resume_context}
+        --------------------------------
 
-Evaluate the candidate based on the actual meaning and technical
-understanding of the answer, not exact wording or keyword matching.
+        Evaluate the candidate based on the actual meaning and technical
+        understanding of the answer, not exact wording or keyword matching.
 
-Consider:
-1. Technical correctness
-2. Understanding of the concept
-3. Relevance to the question
-4. Completeness
-5. Quality of reasoning or explanation
+        Consider:
+        1. Technical correctness
+        2. Understanding of the concept
+        3. Relevance to the question
+        4. Completeness
+        5. Quality of reasoning or explanation
 
-HUMAN-LIKE EVALUATION RULES:
+        HUMAN-LIKE EVALUATION RULES:
 
-- Accept different wording from the expected explanation.
-- Do not require exact keywords.
-- Do not require textbook definitions.
-- Accept simple explanations when the underlying meaning is correct.
-- Accept examples and analogies when they demonstrate understanding.
-- Accept technically valid alternative explanations.
-- Accept conversational answers such as "basically", "I think", or
-  "in simple terms" when the technical meaning is correct.
-- Minor grammar, spelling, sentence structure, filler words, and
-  speech-to-text mistakes should not significantly reduce the score.
-- Do not penalize the candidate simply because they did not mention
-  every minor detail.
-- A short answer can receive a high score if it clearly demonstrates
-  the core concept correctly.
+        - Accept different wording from the expected explanation.
+        - Do not require exact keywords.
+        - Do not require textbook definitions.
+        - Accept simple explanations when the underlying meaning is correct.
+        - Accept examples and analogies when they demonstrate understanding.
+        - Accept technically valid alternative explanations.
+        - Accept conversational answers such as "basically", "I think", or
+        "in simple terms" when the technical meaning is correct.
+        - Minor grammar, spelling, sentence structure, filler words, and
+        speech-to-text mistakes should not significantly reduce the score.
+        - Do not penalize the candidate simply because they did not mention
+        every minor detail.
+        - A short answer can receive a high score if it clearly demonstrates
+        the core concept correctly.
 
-PARTIAL UNDERSTANDING:
+        PARTIAL UNDERSTANDING:
 
-- If the core concept is correct but a minor detail is missing,
-  give reasonable credit.
-- If the candidate understands only part of the concept, give a
-  partial score.
-- If the candidate gives a technically correct alternative answer,
-  accept it even if it differs from the resume context or expected
-  wording.
+        - If the core concept is correct but a minor detail is missing,
+        give reasonable credit.
+        - If the candidate understands only part of the concept, give a
+        partial score.
+        - If the candidate gives a technically correct alternative answer,
+        accept it even if it differs from the resume context or expected
+        wording.
 
-PENALIZE WHEN:
+        PENALIZE WHEN:
 
-- The core concept is incorrect.
-- The candidate demonstrates significant misunderstanding.
-- The answer contradicts the technical concept.
-- The answer is mostly irrelevant.
-- The candidate gives reasoning that would lead to an incorrect
-  implementation.
+        - The core concept is incorrect.
+        - The candidate demonstrates significant misunderstanding.
+        - The answer contradicts the technical concept.
+        - The answer is mostly irrelevant.
+        - The candidate gives reasoning that would lead to an incorrect
+        implementation.
 
-SCORING:
+        SCORING:
 
-9-10: Excellent understanding; technically correct and well explained.
-7-8: Good understanding; core concept is correct with minor gaps.
-5-6: Partial understanding; significant concepts are missing or
-     partially misunderstood.
-3-4: Weak understanding; major technical issues are present.
-0-2: Incorrect, irrelevant, or no meaningful understanding.
+        9-10: Excellent understanding; technically correct and well explained.
+        7-8: Good understanding; core concept is correct with minor gaps.
+        5-6: Partial understanding; significant concepts are missing or
+            partially misunderstood.
+        3-4: Weak understanding; major technical issues are present.
+        0-2: Incorrect, irrelevant, or no meaningful understanding.
 
-IMPORTANT:
+        IMPORTANT:
 
-- Evaluate like a human technical interviewer.
-- Focus on meaning, correctness, reasoning, and relevance.
-- Do not use keyword matching as the primary scoring method.
-- Do not require exact wording.
-- Do not judge grammar or communication style.
-- Do not invent information that the candidate did not provide.
-- Do not penalize information that was not required by the question.
+        - Evaluate like a human technical interviewer.
+        - Focus on meaning, correctness, reasoning, and relevance.
+        - Do not use keyword matching as the primary scoring method.
+        - Do not require exact wording.
+        - Do not judge grammar or communication style.
+        - Do not invent information that the candidate did not provide.
+        - Do not penalize information that was not required by the question.
 
-Return ONLY valid JSON.
+        Return ONLY valid JSON.
 
-Use exactly this format:
+        Use exactly this format:
 
-{{
-    "score": 0,
-    "status": "Incorrect",
-    "feedback": "Short explanation"
-}}
+        {{
+            "score": 0,
+            "status": "Incorrect",
+            "feedback": "Short explanation"
+        }}
 
-Status must be exactly one of:
-Correct
-Partially Correct
-Incorrect
-"""
+        Status must be exactly one of:
+        Correct
+        Partially Correct
+        Incorrect
+        """
 
         response = self.llm.generate(
             prompt

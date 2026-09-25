@@ -1,464 +1,293 @@
 import { useEffect, useRef, useState } from "react";
+import Button from "../common/Button";
+import Icon from "../common/Icon";
 
 function VoiceControls({
   question,
   onTranscript,
   disabled = false,
 }) {
+  // =====================================================
+  // REFS
+  // =====================================================
+
   const recognitionRef = useRef(null);
+  const shouldListenRef = useRef(false);
+  const isRecognitionRunningRef = useRef(false);
+  const restartTimeoutRef = useRef(null);
+  const transcriptRef = useRef("");
+  const onTranscriptRef = useRef(onTranscript);
+
+  // =====================================================
+  // STATE
+  // =====================================================
 
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState("");
   const [supported, setSupported] = useState(true);
 
   // =====================================================
-  // CHECK SPEECH RECOGNITION SUPPORT
+  // KEEP LATEST CALLBACK
+  // =====================================================
+
+  useEffect(() => {
+    onTranscriptRef.current = onTranscript;
+  }, [onTranscript]);
+
+  // =====================================================
+  // SPEECH RECOGNITION SETUP
   // =====================================================
 
   useEffect(() => {
     const SpeechRecognition =
-      window.SpeechRecognition ||
-      window.webkitSpeechRecognition;
+      window.SpeechRecognition || window.webkitSpeechRecognition;
 
-    // Browser does not support speech recognition
     if (!SpeechRecognition) {
+      console.error("SpeechRecognition is not supported in this browser.");
       setSupported(false);
       return;
     }
 
-    const recognition =
-      new SpeechRecognition();
-
+    const recognition = new SpeechRecognition();
     recognition.continuous = true;
     recognition.interimResults = true;
     recognition.lang = "en-US";
-
-    // ===================================================
-    // START
-    // ===================================================
+    recognitionRef.current = recognition;
 
     recognition.onstart = () => {
+      isRecognitionRunningRef.current = true;
       setIsListening(true);
     };
 
-    // ===================================================
-    // RESULT
-    // ===================================================
-
     recognition.onresult = (event) => {
       let finalText = "";
-
-      for (
-        let i = event.resultIndex;
-        i < event.results.length;
-        i++
-      ) {
+      for (let i = event.resultIndex; i < event.results.length; i++) {
         const result = event.results[i];
-
         if (result.isFinal) {
           finalText += result[0].transcript;
         }
       }
 
-      if (finalText.trim()) {
-        setTranscript((previous) => {
-          const updated =
-            `${previous} ${finalText}`.trim();
+      if (!finalText.trim()) return;
 
-          if (typeof onTranscript === "function") {
-            onTranscript(updated);
+      const updatedTranscript = `${transcriptRef.current} ${finalText}`.trim();
+      transcriptRef.current = updatedTranscript;
+      setTranscript(updatedTranscript);
+
+      if (typeof onTranscriptRef.current === "function") {
+        setTimeout(() => {
+          if (typeof onTranscriptRef.current === "function") {
+            onTranscriptRef.current(updatedTranscript);
           }
-
-          return updated;
-        });
+        }, 0);
       }
     };
-
-    // ===================================================
-    // ERROR
-    // ===================================================
 
     recognition.onerror = (event) => {
-      console.error(
-        "Speech recognition error:",
-        event.error
-      );
+      console.error("Speech recognition error:", event.error);
+      isRecognitionRunningRef.current = false;
 
-      setIsListening(false);
-    };
-
-    // ===================================================
-    // END
-    // ===================================================
-
-    recognition.onend = () => {
-      setIsListening(false);
-    };
-
-    recognitionRef.current = recognition;
-
-    // ===================================================
-    // CLEANUP
-    // ===================================================
-
-    return () => {
-      try {
-        recognition.stop();
-      } catch (error) {
-        // Recognition already stopped
+      if (
+        event.error === "no-speech" ||
+        event.error === "network" ||
+        event.error === "aborted"
+      ) {
+        return;
       }
 
-      recognitionRef.current = null;
+      if (
+        event.error === "not-allowed" ||
+        event.error === "service-not-allowed" ||
+        event.error === "audio-capture"
+      ) {
+        console.error("Microphone issue:", event.error);
+        shouldListenRef.current = false;
+        setIsListening(false);
+      }
     };
 
-  }, [onTranscript]);
+    recognition.onend = () => {
+      isRecognitionRunningRef.current = false;
 
+      if (shouldListenRef.current) {
+        clearTimeout(restartTimeoutRef.current);
+        restartTimeoutRef.current = setTimeout(() => {
+          if (!shouldListenRef.current || isRecognitionRunningRef.current) return;
+          try {
+            recognition.start();
+          } catch {
+            clearTimeout(restartTimeoutRef.current);
+            restartTimeoutRef.current = setTimeout(() => {
+              if (shouldListenRef.current && !isRecognitionRunningRef.current) {
+                try {
+                  recognition.start();
+                } catch {}
+              }
+            }, 1000);
+          }
+        }, 700);
+      } else {
+        setIsListening(false);
+      }
+    };
+
+    return () => {
+      shouldListenRef.current = false;
+      clearTimeout(restartTimeoutRef.current);
+      try {
+        recognition.stop();
+      } catch {}
+      recognitionRef.current = null;
+      isRecognitionRunningRef.current = false;
+    };
+  }, []);
 
   // =====================================================
   // SPEAK QUESTION
   // =====================================================
 
   const speakQuestion = () => {
-
-    if (!question) {
+    if (!question) return;
+    if (!window.speechSynthesis) {
+      console.error("Speech synthesis is not supported.");
       return;
     }
 
-    if (
-      typeof window === "undefined" ||
-      !window.speechSynthesis
-    ) {
-      console.error(
-        "Speech synthesis is not supported."
-      );
-
-      return;
-    }
-
-    // Stop current speech
     window.speechSynthesis.cancel();
-
-    const speech =
-      new SpeechSynthesisUtterance(
-        question
-      );
-
+    const speech = new SpeechSynthesisUtterance(question);
     speech.lang = "en-US";
     speech.rate = 0.95;
     speech.pitch = 1;
-
-    window.speechSynthesis.speak(
-      speech
-    );
+    window.speechSynthesis.speak(speech);
   };
 
-
   // =====================================================
-  // START RECORDING
+  // START LISTENING
   // =====================================================
 
   const startListening = () => {
-
-    const recognition =
-      recognitionRef.current;
-
+    const recognition = recognitionRef.current;
     if (!recognition) {
-      console.error(
-        "Speech recognition is not available."
-      );
-
+      console.error("Speech recognition is not available.");
       return;
     }
 
-    // Stop question speech
-    if (
-      window.speechSynthesis
-    ) {
+    if (window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
 
-    // Clear previous transcript
+    shouldListenRef.current = true;
+    transcriptRef.current = "";
     setTranscript("");
 
-    if (typeof onTranscript === "function") {
-      onTranscript("");
+    if (typeof onTranscriptRef.current === "function") {
+      onTranscriptRef.current("");
+    }
+
+    if (isRecognitionRunningRef.current) {
+      setIsListening(true);
+      return;
     }
 
     try {
-
       recognition.start();
-
-    } catch (error) {
-
-      console.log(
-        "Recognition already running."
-      );
-
+    } catch {
+      setIsListening(true);
     }
   };
 
-
   // =====================================================
-  // STOP RECORDING
+  // STOP LISTENING
   // =====================================================
 
   const stopListening = () => {
-
-    const recognition =
-      recognitionRef.current;
+    const recognition = recognitionRef.current;
+    shouldListenRef.current = false;
+    clearTimeout(restartTimeoutRef.current);
 
     if (!recognition) {
+      setIsListening(false);
       return;
     }
 
     try {
       recognition.stop();
-    } catch (error) {
-      console.log(
-        "Recognition already stopped."
-      );
-    }
-
+    } catch {}
+    isRecognitionRunningRef.current = false;
     setIsListening(false);
   };
-
 
   // =====================================================
   // CLEAR TRANSCRIPT
   // =====================================================
 
   const clearTranscript = () => {
-
+    transcriptRef.current = "";
     setTranscript("");
-
-    if (typeof onTranscript === "function") {
-      onTranscript("");
+    if (typeof onTranscriptRef.current === "function") {
+      onTranscriptRef.current("");
     }
   };
-
 
   // =====================================================
   // UNSUPPORTED BROWSER
   // =====================================================
 
   if (!supported) {
-
     return (
-      <div
-        style={{
-          marginTop: "20px",
-          padding: "14px",
-          borderRadius: "10px",
-          background: "#fff7ed",
-          color: "#9a3412",
-          fontSize: "13px",
-        }}
-      >
-        Voice input is not supported in this
-        browser. Please use Google Chrome.
+      <div className="voice-unsupported">
+        Speech recognition is not supported in this browser. Please use Google
+        Chrome or Microsoft Edge.
       </div>
     );
   }
-
 
   // =====================================================
   // UI
   // =====================================================
 
   return (
-    <div
-      style={{
-        marginTop: "24px",
-        padding: "20px",
-        borderRadius: "14px",
-        border: "1px solid #e4e7f0",
-        background: "#fafbff",
-      }}
-    >
-
-      {/* =================================================
-          QUESTION VOICE
-          ================================================= */}
-
-      <div
-        style={{
-          display: "flex",
-          gap: "10px",
-          marginBottom: "18px",
-        }}
-      >
-
-        <button
-          type="button"
-          onClick={speakQuestion}
-          disabled={
-            disabled || !question
-          }
-          style={{
-            padding: "10px 16px",
-            borderRadius: "9px",
-            border: "1px solid #dfe3f0",
-            background: "#ffffff",
-            color: "#4f5bd5",
-            fontWeight: 600,
-            cursor: "pointer",
-          }}
-        >
-          🔊 Replay Question
-        </button>
-
-      </div>
-
-
-      {/* =================================================
-          RECORDING CONTROLS
-          ================================================= */}
-
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "12px",
-        }}
-      >
+    <div className="voice-panel">
+      <div className="voice-row">
+        <Button variant="secondary" onClick={speakQuestion} disabled={disabled || !question}>
+          <Icon name="volume" size={17} />
+          Replay Question
+        </Button>
 
         {!isListening ? (
-
-          <button
-            type="button"
-            onClick={startListening}
-            disabled={disabled}
-            style={{
-              padding: "11px 18px",
-              borderRadius: "9px",
-              border: "none",
-              background: "#5965d8",
-              color: "#ffffff",
-              fontWeight: 600,
-              cursor: "pointer",
-            }}
-          >
-            🎙 Start Recording
-          </button>
-
+          <Button variant="primary" onClick={startListening} disabled={disabled}>
+            <Icon name="mic" size={17} />
+            Start Recording
+          </Button>
         ) : (
-
-          <button
-            type="button"
-            onClick={stopListening}
-            style={{
-              padding: "11px 18px",
-              borderRadius: "9px",
-              border: "none",
-              background: "#dc4c4c",
-              color: "#ffffff",
-              fontWeight: 600,
-              cursor: "pointer",
-            }}
-          >
-            🛑 Stop Recording
-          </button>
-
+          <Button variant="danger" onClick={stopListening}>
+            <Icon name="stop" size={17} />
+            Stop Recording
+          </Button>
         )}
-
 
         {isListening && (
-
-          <span
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "7px",
-              color: "#dc4c4c",
-              fontSize: "13px",
-              fontWeight: 600,
-            }}
-          >
-            <span>●</span>
-
-            Recording...
-
+          <span className="voice-recording">
+            <span className="rec-dot" />
+            Recording…
           </span>
-
         )}
-
       </div>
 
-
-      {/* =================================================
-          TRANSCRIPT
-          ================================================= */}
-
-      <div
-        style={{
-          marginTop: "18px",
-        }}
-      >
-
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginBottom: "8px",
-          }}
-        >
-
-          <span
-            style={{
-              fontSize: "13px",
-              fontWeight: 700,
-              color: "#4b556b",
-            }}
-          >
-            Your Spoken Answer
-          </span>
-
-
+      <div className="voice-transcript">
+        <div className="voice-transcript-head">
+          <span>Your Spoken Answer</span>
           {transcript && (
-
-            <button
-              type="button"
-              onClick={clearTranscript}
-              style={{
-                border: "none",
-                background: "transparent",
-                color: "#737b8e",
-                cursor: "pointer",
-                fontSize: "12px",
-              }}
-            >
+            <button type="button" onClick={clearTranscript}>
               Clear
             </button>
-
           )}
-
         </div>
 
-
-        <div
-          style={{
-            minHeight: "90px",
-            padding: "13px",
-            borderRadius: "10px",
-            border: "1px solid #dfe3f0",
-            background: "#ffffff",
-            color:
-              transcript
-                ? "#27314a"
-                : "#9aa1b2",
-            fontSize: "14px",
-            lineHeight: 1.6,
-          }}
-        >
-
-          {transcript ||
-            "Your spoken answer will appear here..."}
-
+        <div className={`voice-transcript-box${!transcript ? " voice-transcript-box--empty" : ""}`}>
+          {transcript || "Your spoken answer will appear here…"}
         </div>
-
       </div>
-
     </div>
   );
 }

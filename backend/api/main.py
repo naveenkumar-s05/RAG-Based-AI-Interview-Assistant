@@ -3,6 +3,10 @@ import os
 import tempfile
 import uuid
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from fastapi import (
     FastAPI,
     UploadFile,
@@ -77,8 +81,13 @@ app.add_middleware(
     CORSMiddleware,
 
     allow_origins=[
-        "http://localhost:5173",
-        "https://rag-based-ai-interview-assistant.onrender.com"
+        origin.strip()
+        for origin in os.getenv(
+            "ALLOWED_ORIGINS",
+            "http://localhost:5173,"
+            "http://127.0.0.1:5173"
+        ).split(",")
+        if origin.strip()
     ],
 
     allow_credentials=True,
@@ -453,11 +462,8 @@ async def start_resume_interview(
     # -------------------------------------------------
 
     if extension not in {
-
         ".pdf",
-
         ".docx"
-
     }:
 
         raise HTTPException(
@@ -554,7 +560,7 @@ async def start_resume_interview(
 
 
         # -------------------------------------------------
-        # Create existing ResumeInterviewer
+        # Create ResumeInterviewer
         # -------------------------------------------------
 
         interviewer = ResumeInterviewer(
@@ -563,7 +569,7 @@ async def start_resume_interview(
 
 
         # -------------------------------------------------
-        # Generate first main question
+        # Generate first MAIN question
         # -------------------------------------------------
 
         first_question = (
@@ -611,6 +617,11 @@ async def start_resume_interview(
                 0,
 
             "main_questions":
+                1,
+
+            # First two main questions cannot
+            # generate follow-up questions.
+            "main_question_count":
                 1,
 
             "used_topics": [
@@ -738,8 +749,8 @@ def evaluate_resume_answer(
             status_code=404,
 
             detail=(
-                "Resume interview session "
-                "not found."
+                "Resume interview session not found. "
+                "Please start a new resume interview."
             )
 
         )
@@ -867,7 +878,6 @@ def evaluate_resume_answer(
 
         session["completed"] = True
 
-
         return {
 
             "success": True,
@@ -885,116 +895,101 @@ def evaluate_resume_answer(
 
 
     # =================================================
-    # FOLLOW-UP DECISION + GENERATION
-    #
-    # Uses your existing method:
-    # process_candidate_answer()
+    # FOLLOW-UP DECISION
     # =================================================
 
-    follow_up_result = (
-        interviewer.process_candidate_answer(
+    # Follow-ups are allowed only after the first
+    # two MAIN questions have been completed.
 
-            topic=topic,
+    current_type = current_question[
+        "type"
+    ]
 
-            previous_question=question,
-
-            candidate_answer=
-                request.answer,
-
-            retrieved_chunks=
-                retrieved_chunks,
-
-            difficulty=difficulty
-
-        )
+    main_question_count = session.get(
+        "main_question_count",
+        1
     )
 
+    allow_follow_up = (
 
-    # =================================================
-    # FOLLOW-UP REQUIRED
-    # =================================================
+        current_type == "main"
 
-    if (
+        and
 
-        follow_up_result[
-            "follow_up_required"
-        ]
+        main_question_count > 2
 
         and
 
         session[
             "follow_up_questions"
         ]
-
         <
-
         session[
             "max_follow_ups"
         ]
 
-    ):
+    )
 
-        follow_up_question = (
-            follow_up_result[
-                "follow_up_question"
-            ]
+
+    # =================================================
+    # FOLLOW-UP
+    # =================================================
+
+    if allow_follow_up:
+
+        follow_up_result = (
+            interviewer.process_candidate_answer(
+
+                topic=topic,
+
+                previous_question=question,
+
+                candidate_answer=
+                    request.answer,
+
+                retrieved_chunks=
+                    retrieved_chunks,
+
+                difficulty=difficulty
+
+            )
         )
 
 
-        # -------------------------------------------------
-        # Increment total question count
-        # -------------------------------------------------
+        if (
+            follow_up_result[
+                "follow_up_required"
+            ]
+        ):
 
-        session[
-            "question_number"
-        ] += 1
-
-
-        session[
-            "follow_up_questions"
-        ] += 1
-
-
-        # -------------------------------------------------
-        # Store current follow-up
-        # -------------------------------------------------
-
-        session[
-            "current_question"
-        ] = {
-
-            "question_number":
-                session[
-                    "question_number"
-                ],
-
-            "type":
-                "follow_up",
-
-            "topic":
-                topic,
-
-            "question":
-                follow_up_question,
-
-            "retrieved_chunks":
-                retrieved_chunks
-
-        }
+            follow_up_question = (
+                follow_up_result[
+                    "follow_up_question"
+                ]
+            )
 
 
-        # -------------------------------------------------
-        # Return follow-up
-        # -------------------------------------------------
+            # -------------------------------------------------
+            # Increment total question count
+            # -------------------------------------------------
 
-        return {
+            session[
+                "question_number"
+            ] += 1
 
-            "success": True,
 
-            "evaluation":
-                evaluation,
+            session[
+                "follow_up_questions"
+            ] += 1
 
-            "next_question": {
+
+            # -------------------------------------------------
+            # Store current follow-up
+            # -------------------------------------------------
+
+            session[
+                "current_question"
+            ] = {
 
                 "question_number":
                     session[
@@ -1010,15 +1005,48 @@ def evaluate_resume_answer(
                 "question":
                     follow_up_question,
 
-                "difficulty":
-                    difficulty
+                "retrieved_chunks":
+                    retrieved_chunks
 
-            },
+            }
 
-            "interview_completed":
-                False
 
-        }
+            # -------------------------------------------------
+            # Return follow-up
+            # -------------------------------------------------
+
+            return {
+
+                "success": True,
+
+                "evaluation":
+                    evaluation,
+
+                "next_question": {
+
+                    "question_number":
+                        session[
+                            "question_number"
+                        ],
+
+                    "type":
+                        "follow_up",
+
+                    "topic":
+                        topic,
+
+                    "question":
+                        follow_up_question,
+
+                    "difficulty":
+                        difficulty
+
+                },
+
+                "interview_completed":
+                    False
+
+            }
 
 
     # =================================================
@@ -1080,6 +1108,7 @@ def evaluate_resume_answer(
         next_topic
     )
 
+
     session[
         "used_topics"
     ] = used_topics
@@ -1120,6 +1149,11 @@ def evaluate_resume_answer(
     ] += 1
 
 
+    session[
+        "main_question_count"
+    ] += 1
+
+
     # =================================================
     # RETURN NEXT MAIN QUESTION
     # =================================================
@@ -1156,6 +1190,7 @@ def evaluate_resume_answer(
             False
 
     }
+
 
 # =====================================================
 # FINAL INTERVIEW RESULT

@@ -1,5 +1,15 @@
 import ErrorMessage from "../common/ErrorMessage";
+import Badge from "../common/Badge";
+import Button from "../common/Button";
+import Icon from "../common/Icon";
+import ProgressBar from "../common/ProgressBar";
 import VoiceControls from "../voice/VoiceControls";
+
+function statusTone(status = "") {
+  if (status === "Correct") return "success";
+  if (status === "Partially Correct") return "warning";
+  return "danger";
+}
 
 function ConceptualSection({
   conceptualQuestions,
@@ -13,352 +23,141 @@ function ConceptualSection({
   handleConceptualSubmit,
   handleConceptualNext,
 }) {
-  const question =
-    conceptualQuestions[
-      conceptualIndex
-    ];
-
+  const question = conceptualQuestions[conceptualIndex];
 
   if (!question) {
-
     return (
-
-      <div className="app">
-
-        <div className="question-card">
-
-          <h2>
-            No conceptual question available.
-          </h2>
-
-          <ErrorMessage
-            error={error}
-          />
-
+      <div className="container">
+        <div className="panel panel-pad card">
+          <h2>No conceptual question available.</h2>
+          <ErrorMessage error={error} />
         </div>
-
       </div>
-
     );
-
   }
 
+  const total = conceptualQuestions.length;
+  const progress = total > 0 ? ((conceptualIndex + 1) / total) * 100 : 0;
+  const isLast = conceptualIndex === total - 1;
 
-  const total =
-    conceptualQuestions.length;
-
-
-  const progress =
-    total > 0
-      ? (
-          (conceptualIndex + 1)
-          /
-          total
-        ) * 100
-      : 0;
-
-
-  // =====================================================
-  // VOICE TRANSCRIPT
-  // =====================================================
-
-  const handleVoiceTranscript = (
-    transcript
-  ) => {
-
-    setAnswer(transcript);
-
-  };
-
-
-  // =====================================================
-  // NEXT QUESTION + SPEAK NEXT QUESTION
-  // =====================================================
-
-  const handleNextQuestion = () => {
-
-    // Stop any current speech.
-    window.speechSynthesis.cancel();
-
-    const nextIndex =
-      conceptualIndex + 1;
-
-    const nextQuestion =
-      conceptualQuestions[
-        nextIndex
-      ];
-
-
-    // Speak the next question.
-    //
-    // This function is called directly from
-    // the user's button click, so the browser
-    // treats speech as a user-initiated action.
-
-    if (nextQuestion) {
-
-      const speech =
-        new SpeechSynthesisUtterance(
-          nextQuestion.question
-        );
-
-      speech.lang = "en-US";
-      speech.rate = 0.95;
-      speech.pitch = 1;
-
-      window.speechSynthesis.speak(
-        speech
-      );
-
-    }
-
-
-    // Move to the next question.
-    handleConceptualNext();
-
-  };
-
+  const handleVoiceTranscript = (transcript) => setAnswer(transcript);
 
   return (
-
-    <div className="app">
-
-      <div className="question-card">
-
-        {/* =================================================
-            QUESTION HEADER
-            ================================================= */}
-
-        <div className="question-header">
-
+    <div className="container container--lg">
+      <div className="panel panel-pad">
+        {/* HEADER */}
+        <div className="q-header">
           <div>
-
-            <span className="question-label">
-              CONCEPTUAL INTERVIEW
+            <span className="q-label">
+              <Icon name="message" size={13} style={{ display: "inline", verticalAlign: "-2px" }} />{" "}
+              Conceptual Interview
             </span>
-
-            <h1>
-
-              Question{" "}
-              {conceptualIndex + 1}
-
-              <span>
-                {" "} / {total}
-              </span>
-
+            <h1 className="q-title">
+              Question {conceptualIndex + 1}
+              <span> / {total}</span>
             </h1>
-
           </div>
-
-
-          <div className="difficulty">
-            {question.difficulty}
-          </div>
-
+          <Badge tone="navy">{question.difficulty}</Badge>
         </div>
 
-
-        {/* =================================================
-            PROGRESS
-            ================================================= */}
-
-        <div className="progress-container">
-
-          <div
-            className="progress-bar"
-            style={{
-              width: `${progress}%`
-            }}
-          />
-
-        </div>
-
-
-        {/* =================================================
-            TOPIC
-            ================================================= */}
-
-        <div className="topic">
-
-          Topic: {question.topic}
-
-        </div>
-
-
-        {/* =================================================
-            QUESTION
-            ================================================= */}
-
-        <div className="question-box">
-
-          <h2>
-            {question.question}
-          </h2>
-
-        </div>
-
-
-        {/* =================================================
-            TEXT ANSWER
-            ================================================= */}
-
-        <div className="answer-section">
-
-          <label>
-            Your Answer
-          </label>
-
-
-          <textarea
-            value={answer}
-            onChange={(event) =>
-              setAnswer(
-                event.target.value
-              )
-            }
-            placeholder="Type your answer here..."
-            disabled={
-              conceptualSubmitted ||
-              loading
-            }
-          />
-
-        </div>
-
-
-        {/* =================================================
-            VOICE INTERVIEW
-            ================================================= */}
-
-        {!conceptualSubmitted && (
-
-          <VoiceControls
-            question={
-              question.question
-            }
-
-            onTranscript={
-              handleVoiceTranscript
-            }
-
-            disabled={
-              loading
-            }
-          />
-
-        )}
-
-
-        {/* =================================================
-            ERROR
-            ================================================= */}
-
-        <ErrorMessage
-          error={error}
+        {/* PROGRESS */}
+        <ProgressBar
+          value={progress}
+          labels={{
+            left: "Conceptual round",
+            right: `${conceptualIndex + 1} of ${total} answered`,
+          }}
         />
 
+        {/* TOPIC + QUESTION */}
+        <div className="q-topic-row">
+          <div className="topic-chip">
+            <Icon name="layers" size={14} />
+            {question.topic}
+          </div>
+        </div>
 
-        {/* =================================================
-            SUBMIT
-            ================================================= */}
+        <div className="question-box">
+          <h2>{question.question}</h2>
+        </div>
 
+        {/* ANSWER */}
+        <div className="answer-area">
+          <label className="form-label" htmlFor={`conceptual-answer-${conceptualIndex}`}>
+            Your Answer
+          </label>
+          <textarea
+            id={`conceptual-answer-${conceptualIndex}`}
+            className="answer-textarea"
+            value={answer}
+            onChange={(event) => setAnswer(event.target.value)}
+            placeholder="Type your answer here…"
+            disabled={conceptualSubmitted || loading}
+          />
+        </div>
+
+        {/* VOICE */}
         {!conceptualSubmitted && (
-
-          <button
-            className="submit-button"
-            onClick={
-              handleConceptualSubmit
-            }
-            disabled={
-              loading ||
-              !answer.trim()
-            }
-          >
-
-            {loading
-              ? "Evaluating..."
-              : "Submit Answer"
-            }
-
-            {!loading && (
-              <span>
-                →
-              </span>
-            )}
-
-          </button>
-
+          <VoiceControls
+            question={question.question}
+            onTranscript={handleVoiceTranscript}
+            disabled={loading}
+          />
         )}
 
+        {/* ERROR */}
+        {error && (
+          <div style={{ marginTop: "var(--space-5)" }}>
+            <ErrorMessage error={error} />
+          </div>
+        )}
 
-        {/* =================================================
-            EVALUATION
-            ================================================= */}
+        {/* SUBMIT */}
+        {!conceptualSubmitted && (
+          <div className="section-actions">
+            <Button
+              variant="primary"
+              full
+              size="lg"
+              onClick={handleConceptualSubmit}
+              disabled={loading || !answer.trim()}
+              loading={loading}
+            >
+              {!loading && <>Submit Answer</>}
+              {!loading && <Icon name="arrowRight" size={18} />}
+            </Button>
+          </div>
+        )}
 
-        {conceptualSubmitted &&
-          conceptualEvaluation && (
-
-            <div className="evaluation-box">
-
-              <div className="evaluation-header">
-
-                <span>
-                  ANSWER EVALUATION
-                </span>
-
-                <strong>
-                  {
-                    conceptualEvaluation.score
-                  }
-                  /10
-                </strong>
-
-              </div>
-
-
-              <div className="correct-status">
-
-                {
-                  conceptualEvaluation.status
-                }
-
-              </div>
-
-
-              <p>
-                {
-                  conceptualEvaluation.feedback
-                }
-              </p>
-
-
-              <button
-                className="next-button"
-                onClick={
-                  handleNextQuestion
-                }
-              >
-
-                {conceptualIndex ===
-                total - 1
-                  ? "Start Resume Interview"
-                  : "Next Question"
-                }
-
-                <span>
-                  →
-                </span>
-
-              </button>
-
+        {/* EVALUATION */}
+        {conceptualSubmitted && conceptualEvaluation && (
+          <div className="evaluation-card">
+            <div className="eval-head">
+              <span className="eval-head-label">Answer Evaluation</span>
+              <span className="eval-score">{conceptualEvaluation.score}/10</span>
             </div>
 
-          )}
+            <div className="eval-status-row">
+              <Badge tone={statusTone(conceptualEvaluation.status)}>
+                {conceptualEvaluation.status === "Correct" && <Icon name="check" size={12} strokeWidth={3} />}
+                {conceptualEvaluation.status === "Partially Correct" && <Icon name="alert" size={12} />}
+                {conceptualEvaluation.status === "Incorrect" && <Icon name="x" size={12} strokeWidth={3} />}
+                {conceptualEvaluation.status}
+              </Badge>
+            </div>
 
+            <p className="eval-feedback">{conceptualEvaluation.feedback}</p>
+
+            <div className="section-actions">
+              <Button variant="primary" full size="lg" onClick={handleConceptualNext}>
+                {isLast ? "Start Resume Interview" : "Next Question"}
+                <Icon name="arrowRight" size={18} />
+              </Button>
+            </div>
+          </div>
+        )}
       </div>
-
     </div>
-
   );
 }
 

@@ -3,13 +3,21 @@ from sentence_transformers import SentenceTransformer
 
 class ResumeEmbedder:
 
+    # Share one model instance across all candidates.
+    # Loading a new SentenceTransformer per session
+    # would exhaust server memory.
+    _models = {}
+
     def __init__(
         self,
         model_name="all-MiniLM-L6-v2"
     ):
-        self.model = SentenceTransformer(
-            model_name
-        )
+        if model_name not in ResumeEmbedder._models:
+            ResumeEmbedder._models[model_name] = (
+                SentenceTransformer(model_name)
+            )
+
+        self.model = ResumeEmbedder._models[model_name]
 
     def embed_text(self, text):
         """

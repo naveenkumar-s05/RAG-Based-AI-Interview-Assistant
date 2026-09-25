@@ -1,4 +1,14 @@
 import ErrorMessage from "../common/ErrorMessage";
+import Badge from "../common/Badge";
+import Button from "../common/Button";
+import Icon from "../common/Icon";
+import ProgressBar from "../common/ProgressBar";
+
+function statusTone(status = "") {
+  if (status === "Correct") return "success";
+  if (status === "Partially Correct") return "warning";
+  return "danger";
+}
 
 function CodingSection({
   codingQuestions,
@@ -12,274 +22,168 @@ function CodingSection({
   handleCodingSubmit,
   handleCodingNext,
 }) {
-    const question =
-      codingQuestions[
-        codingIndex
-      ];
+  const question = codingQuestions[codingIndex];
 
+  if (!question) {
+    return (
+      <div className="container">
+        <div className="panel panel-pad card">
+          <h2>No coding question available.</h2>
+          <ErrorMessage error={error} />
+        </div>
+      </div>
+    );
+  }
 
-    if (!question) {
+  const total = codingQuestions.length;
+  const progress = total > 0 ? ((codingIndex + 1) / total) * 100 : 0;
+  const isLast = codingIndex === total - 1;
 
-      return (
-
-        <div className="app">
-
-          <div className="question-card">
-
-            <h2>
-              No coding question available.
-            </h2>
-
-            <ErrorMessage error={error} />
-
+  return (
+    <div className="container container--xl">
+      <div className="panel panel-pad">
+        {/* HEADER */}
+        <div className="q-header">
+          <div>
+            <span className="q-label">
+              <Icon name="code" size={13} style={{ display: "inline", verticalAlign: "-2px" }} />{" "}
+              Coding Interview
+            </span>
+            <h1 className="q-title">
+              Problem {codingIndex + 1}
+              <span> / {total}</span>
+            </h1>
           </div>
-
+          <Badge tone="navy">{question.difficulty}</Badge>
         </div>
 
-      );
+        {/* PROGRESS */}
+        <ProgressBar
+          value={progress}
+          labels={{
+            left: "Coding round",
+            right: `${codingIndex + 1} of ${total} answered`,
+          }}
+        />
 
-    }
-
-
-    const total =
-      codingQuestions.length;
-
-
-    const progress =
-      total > 0
-        ? (
-            (codingIndex + 1)
-            /
-            total
-          ) * 100
-        : 0;
-
-
-    return (
-
-      <div className="app">
-
-        <div className="coding-card">
-
-          <div className="question-header">
-
-            <div>
-
-              <span className="question-label">
-                CODING INTERVIEW
-              </span>
-
-              <h1>
-
-                Question{" "}
-                {codingIndex + 1}
-
-                <span>
-                  {" "} / {total}
-                </span>
-
-              </h1>
-
-            </div>
-
-
-            <div className="difficulty">
-
-              {question.difficulty}
-
-            </div>
-
+        <div className="q-topic-row">
+          <div className="topic-chip">
+            <Icon name="cpu" size={14} />
+            {question.topic}
           </div>
+        </div>
 
-
-          <div className="progress-container">
-
-            <div
-              className="progress-bar"
-              style={{
-                width: `${progress}%`
-              }}
-            />
-
-          </div>
-
-
-          <div className="topic">
-            Topic: {question.topic}
-          </div>
-
-
-          <div className="coding-problem">
-
-            <h2>
+        {/* TWO PANE */}
+        <div className="coding-layout">
+          {/* LEFT — PROBLEM */}
+          <div className="problem-panel" style={{ background: "var(--color-surface-muted)", borderRadius: "var(--radius-lg)", border: "1px solid var(--color-border)" }}>
+            <h2 style={{ fontSize: "var(--font-size-lg)", color: "var(--color-navy-900)" }}>
               Problem
             </h2>
 
-            <p>
-              {question.question}
-            </p>
-
+            <p className="problem-text">{question.question}</p>
 
             <div className="problem-details">
-
-              <div>
-
-                <strong>
+              <div className="problem-block">
+                <div className="problem-block-head">
+                  <Icon name="alert" size={13} />
                   Constraints
-                </strong>
-
-                <pre>
-                  {question.constraints}
-                </pre>
-
+                </div>
+                <pre>{question.constraints}</pre>
               </div>
 
-
-              <div>
-
-                <strong>
+              <div className="problem-block">
+                <div className="problem-block-head">
+                  <Icon name="py" size={13} />
                   Sample Input
-                </strong>
-
-                <pre>
-                  {question.sample_input}
-                </pre>
-
+                </div>
+                <pre>{question.sample_input}</pre>
               </div>
 
-
-              <div>
-
-                <strong>
+              <div className="problem-block">
+                <div className="problem-block-head">
+                  <Icon name="check" size={13} />
                   Sample Output
-                </strong>
-
-                <pre>
-                  {question.sample_output}
-                </pre>
-
+                </div>
+                <pre>{question.sample_output}</pre>
               </div>
-
             </div>
-
           </div>
 
-
-          <div className="code-section">
-
-            <label>
-              Your Code
-            </label>
-
+          {/* RIGHT — EDITOR */}
+          <div className="editor-panel">
+            <div className="editor-meta">
+              <span>Your Code</span>
+              <span className="editor-lang">python</span>
+            </div>
 
             <textarea
               className="code-editor"
               value={code}
-              onChange={event =>
-                setCode(
-                  event.target.value
-                )
-              }
-              placeholder={
-`# Write your solution here
+              onChange={(event) => setCode(event.target.value)}
+              placeholder={`# Write your solution here
 
 def solution():
-    pass`
-              }
-              disabled={
-                codingSubmitted ||
-                loading
-              }
+    pass`}
+              disabled={codingSubmitted || loading}
+              spellCheck="false"
             />
 
-          </div>
-
-
-          <ErrorMessage error={error} />
-
-
-          {!codingSubmitted && (
-
-            <button
-              className="submit-button"
-              onClick={
-                handleCodingSubmit
-              }
-              disabled={loading}
-            >
-
-              {loading
-                ? "Evaluating..."
-                : "Submit Code"
-              }
-
-              {!loading && (
-                <span>→</span>
-              )}
-
-            </button>
-
-          )}
-
-
-          {codingSubmitted &&
-            codingEvaluation && (
-
-              <div className="evaluation-box">
-
-                <div className="evaluation-header">
-
-                  <span>
-                    CODE EVALUATION
-                  </span>
-
-                  <strong>
-                    {codingEvaluation.score}/10
-                  </strong>
-
-                </div>
-
-
-                <div className="correct-status">
-
-                  {codingEvaluation.status}
-
-                </div>
-
-
-                <p>
-                  {codingEvaluation.feedback}
-                </p>
-
-
-                <button
-                  className="next-button"
-                  onClick={
-                    handleCodingNext
-                  }
-                  disabled={loading}
+            {!codingSubmitted && (
+              <div className="code-actions">
+                <Button
+                  variant="primary"
+                  full
+                  size="lg"
+                  onClick={handleCodingSubmit}
+                  disabled={loading || !code.trim()}
+                  loading={loading}
                 >
-
-                  {codingIndex === total - 1
-                    ? "Finish Interview"
-                    : "Next Question"
-                  }
-
-                  <span>
-                    →
-                  </span>
-
-                </button>
-
+                  {!loading && <>Submit Code</>}
+                  {!loading && <Icon name="arrowRight" size={18} />}
+                </Button>
               </div>
-
             )}
-
+          </div>
         </div>
 
-      </div>
+        {/* ERROR */}
+        {error && (
+          <div style={{ marginTop: "var(--space-5)" }}>
+            <ErrorMessage error={error} />
+          </div>
+        )}
 
-    );
+        {/* EVALUATION */}
+        {codingSubmitted && codingEvaluation && (
+          <div className="evaluation-card">
+            <div className="eval-head">
+              <span className="eval-head-label">Code Evaluation</span>
+              <span className="eval-score">{codingEvaluation.score}/10</span>
+            </div>
+
+            <div className="eval-status-row">
+              <Badge tone={statusTone(codingEvaluation.status)}>
+                {codingEvaluation.status === "Correct" && <Icon name="check" size={12} strokeWidth={3} />}
+                {codingEvaluation.status === "Partially Correct" && <Icon name="alert" size={12} />}
+                {codingEvaluation.status === "Incorrect" && <Icon name="x" size={12} strokeWidth={3} />}
+                {codingEvaluation.status}
+              </Badge>
+            </div>
+
+            <p className="eval-feedback">{codingEvaluation.feedback}</p>
+
+            <div className="section-actions">
+              <Button variant="primary" full size="lg" onClick={handleCodingNext}>
+                {isLast ? "Finish Interview" : "Next Problem"}
+                <Icon name="arrowRight" size={18} />
+              </Button>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 }
 
 export default CodingSection;

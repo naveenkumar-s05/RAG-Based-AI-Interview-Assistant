@@ -1,111 +1,227 @@
+/* =====================================================
+   DESIGN TOKENS
+   ===================================================== */
+
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  /* -----------------------------------------------
+     COLORS
+     ----------------------------------------------- */
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  /* Primary – deep navy */
+  --color-navy-950: #0b1220;
+  --color-navy-900: #101a33;
+  --color-navy-800: #16213f;
+  --color-navy-700: #1d2b52;
+  --color-navy-600: #26386a;
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Secondary – indigo / electric blue */
+  --color-indigo-700: #4446c7;
+  --color-indigo-600: #4f4fd6;
+  --color-indigo-500: #5b65e8;
+  --color-indigo-400: #6f78f0;
+  --color-indigo-300: #9aa1f6;
+  --color-indigo-100: #e6e8fc;
+  --color-indigo-50: #f3f4fd;
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  /* Accent – electric blue */
+  --color-electric-500: #2f6bff;
+  --color-electric-400: #5b8bff;
+
+  /* Backgrounds & surfaces */
+  --color-bg: #f5f7fc;
+  --color-bg-subtle: #eef1f8;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8fafd;
+
+  /* Text */
+  --color-text: #14203a;
+  --color-text-secondary: #53607c;
+  --color-text-muted: #7c8aa5;
+  --color-text-inverse: #ffffff;
+
+  /* Borders */
+  --color-border: #e3e8f2;
+  --color-border-strong: #d3dae8;
+
+  /* Status */
+  --color-success: #19a765;
+  --color-success-bg: #e7f8f0;
+  --color-warning: #d97706;
+  --color-warning-bg: #fef3e2;
+  --color-danger: #dc4c4c;
+  --color-danger-bg: #fdecec;
+  --color-info: #2f6bff;
+  --color-info-bg: #eaf1ff;
+
+  /* -----------------------------------------------
+     GRADIENTS
+     ----------------------------------------------- */
+
+  --gradient-brand: linear-gradient(
+    135deg,
+    var(--color-navy-900) 0%,
+    var(--color-navy-700) 45%,
+    var(--color-indigo-600) 100%
+  );
+
+  --gradient-cta: linear-gradient(
+    135deg,
+    var(--color-indigo-600) 0%,
+    var(--color-electric-500) 100%
+  );
+
+  --gradient-success: linear-gradient(
+    135deg,
+    #19a765 0%,
+    #23c07a 100%
+  );
+
+  /* -----------------------------------------------
+     TYPOGRAPHY
+     ----------------------------------------------- */
+
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system,
+    Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Cascadia Code",
+    Consolas, "Courier New", monospace;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-md: 15px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 36px;
+  --font-size-4xl: 48px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* -----------------------------------------------
+     SPACING
+     ----------------------------------------------- */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* -----------------------------------------------
+     RADIUS
+     ----------------------------------------------- */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+  --radius-pill: 999px;
+
+  /* -----------------------------------------------
+     SHADOWS
+     ----------------------------------------------- */
+
+  --shadow-sm: 0 1px 2px rgba(16, 26, 51, 0.05);
+  --shadow-md: 0 4px 12px rgba(16, 26, 51, 0.07);
+  --shadow-lg: 0 12px 32px rgba(16, 26, 51, 0.1);
+  --shadow-xl: 0 24px 56px rgba(16, 26, 51, 0.14);
+  --shadow-brand: 0 10px 28px rgba(79, 79, 214, 0.32);
+
+  /* -----------------------------------------------
+     LAYOUT
+     ----------------------------------------------- */
+
+  --container-width: 720px;
+  --container-width-lg: 980px;
+  --container-width-xl: 1120px;
+  --page-pad: 24px;
+
+  /* -----------------------------------------------
+     TRANSITIONS
+     ----------------------------------------------- */
+
+  --transition-fast: 150ms ease;
+  --transition-base: 220ms ease;
+  --transition-slow: 350ms ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
+/* =====================================================
+   GLOBAL RESET
+   ===================================================== */
 
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-}
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
 p {
-  margin: 0;
+  color: var(--color-text-secondary);
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+button,
+textarea,
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+textarea:focus-visible,
+input:focus-visible {
+  outline: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(91, 101, 232, 0.2);
 }

@@ -1,0 +1,2001 @@
+technical_knowledge,problem_solving,logical_thinking,programming_coding,communication,job_readiness
+8.73,8.19,9.05,8.76,8.39,Highly Job Ready
+3.63,2.4,4.77,2.74,7.03,Not Ready
+7.07,6.94,7.99,7.2,6.53,Job Ready
+4.67,5.58,5.98,5.13,7.16,Needs Improvement
+8.76,8.68,7.29,6.91,8.54,Job Ready
+7.01,8.75,6.45,6.5,8.67,Job Ready
+6.85,6.08,6.05,5.09,5.69,Needs Improvement
+8.89,8.07,7.78,9.21,9.24,Highly Job Ready
+4.64,1.99,3.72,2.45,3.2,Not Ready
+7.8,7.37,7.27,8.24,6.8,Job Ready
+4.35,1.79,4.87,4.32,2.52,Not Ready
+8.4,8.12,7.07,7.94,7.37,Job Ready
+7.36,7.44,8.09,7.63,7.69,Job Ready
+5.11,6.01,4.59,5.19,5.16,Needs Improvement
+4.8,3.15,3.09,2.43,2.58,Not Ready
+4.22,4.44,4.0,4.13,5.49,Not Ready
+5.1,6.47,8.5,5.44,5.87,Needs Improvement
+2.08,4.6,6.16,4.0,3.41,Not Ready
+9.09,8.74,8.96,8.85,8.69,Highly Job Ready
+9.17,8.83,9.72,7.88,10.0,Highly Job Ready
+5.56,4.34,4.4,5.25,5.79,Needs Improvement
+9.25,8.71,7.59,9.24,8.43,Highly Job Ready
+7.86,8.76,9.6,8.0,8.64,Highly Job Ready
+5.9,7.82,8.11,7.08,6.27,Job Ready
+7.94,9.23,9.31,9.82,9.63,Highly Job Ready
+4.88,1.69,3.41,1.51,2.08,Not Ready
+7.12,7.79,8.72,7.67,7.69,Job Ready
+5.35,5.16,7.2,5.24,6.52,Needs Improvement
+7.04,7.07,6.29,5.37,5.57,Needs Improvement
+3.32,3.1,3.64,5.03,3.98,Not Ready
+5.62,8.68,5.58,6.04,5.42,Needs Improvement
+3.19,4.94,5.75,5.46,6.03,Needs Improvement
+4.4,6.4,5.06,8.71,4.77,Needs Improvement
+6.15,4.93,6.09,4.75,6.46,Needs Improvement
+7.03,7.92,6.18,7.3,7.5,Job Ready
+2.61,3.7,4.58,1.06,4.99,Not Ready
+9.04,6.92,8.17,9.52,9.45,Highly Job Ready
+7.98,7.57,7.03,7.58,7.28,Job Ready
+8.66,6.09,5.92,6.6,7.54,Job Ready
+5.57,5.47,3.37,4.23,3.08,Not Ready
+3.29,3.84,4.11,3.09,4.34,Not Ready
+8.8,8.29,8.47,8.08,9.14,Highly Job Ready
+3.08,4.69,3.76,5.8,3.25,Not Ready
+6.65,6.56,6.06,4.52,5.5,Needs Improvement
+8.81,7.25,8.68,8.31,9.4,Highly Job Ready
+5.19,6.5,4.85,6.14,6.51,Needs Improvement
+6.79,4.98,4.26,6.38,6.4,Needs Improvement
+4.78,6.2,5.82,7.13,5.81,Needs Improvement
+4.22,4.77,3.14,4.74,5.03,Not Ready
+8.49,8.88,9.29,7.46,8.46,Highly Job Ready
+8.29,9.39,8.4,8.23,8.45,Highly Job Ready
+2.89,3.83,4.46,4.51,5.58,Not Ready
+6.48,6.9,6.48,7.21,7.39,Job Ready
+3.62,5.47,3.28,5.1,3.06,Not Ready
+5.82,3.24,6.98,5.93,5.02,Needs Improvement
+8.49,8.66,9.17,8.49,8.45,Highly Job Ready
+8.56,7.03,7.32,7.94,7.32,Job Ready
+8.65,8.86,8.93,9.54,8.86,Highly Job Ready
+8.68,7.47,7.79,7.17,7.75,Job Ready
+1.59,4.35,3.8,3.85,4.9,Not Ready
+7.37,6.93,7.69,8.45,7.85,Job Ready
+4.78,4.16,5.04,4.81,6.35,Needs Improvement
+7.68,9.26,9.47,7.22,8.26,Highly Job Ready
+6.7,5.94,7.27,8.4,7.44,Job Ready
+8.92,8.77,9.31,8.67,7.85,Highly Job Ready
+8.8,9.33,9.27,8.69,8.91,Highly Job Ready
+5.17,6.04,4.21,6.46,4.89,Needs Improvement
+9.07,8.4,8.27,8.57,8.48,Highly Job Ready
+3.45,2.93,2.61,2.37,2.78,Not Ready
+5.44,8.22,7.39,6.67,8.3,Job Ready
+7.66,6.84,7.82,8.88,7.7,Job Ready
+0.3,3.09,4.98,3.44,2.11,Not Ready
+5.71,7.78,7.75,8.97,5.95,Job Ready
+8.04,8.24,6.77,7.8,6.74,Job Ready
+4.91,4.94,6.24,5.73,4.01,Needs Improvement
+4.46,3.85,4.68,5.15,4.02,Not Ready
+8.5,9.15,8.08,7.92,9.29,Highly Job Ready
+6.0,6.94,6.25,5.86,7.21,Needs Improvement
+3.12,3.81,4.81,2.08,2.29,Not Ready
+7.91,8.63,9.5,8.51,8.77,Highly Job Ready
+1.43,3.12,4.48,1.98,5.5,Not Ready
+7.41,5.12,5.15,5.68,6.19,Needs Improvement
+6.18,7.11,6.66,7.05,6.23,Job Ready
+8.08,10.0,8.1,8.76,9.03,Highly Job Ready
+9.01,9.28,8.43,8.07,9.05,Highly Job Ready
+7.88,7.82,6.13,6.56,7.13,Job Ready
+9.28,7.03,8.51,9.73,8.8,Highly Job Ready
+1.55,4.61,1.89,4.16,2.78,Not Ready
+4.6,4.09,4.55,3.79,4.39,Not Ready
+8.61,8.52,8.95,9.07,8.93,Highly Job Ready
+8.97,8.68,8.68,8.65,8.07,Highly Job Ready
+8.58,8.71,9.16,8.5,8.63,Highly Job Ready
+2.37,3.57,3.93,6.61,2.22,Not Ready
+2.87,4.81,2.22,4.18,4.01,Not Ready
+8.26,8.59,8.65,9.29,8.04,Highly Job Ready
+9.1,8.23,8.56,9.54,9.4,Highly Job Ready
+6.12,5.18,7.36,4.97,5.48,Needs Improvement
+7.76,7.87,5.03,7.24,9.07,Job Ready
+9.43,8.01,9.0,8.9,9.42,Highly Job Ready
+7.28,8.5,9.35,8.58,9.61,Highly Job Ready
+5.46,6.56,5.94,7.02,5.52,Needs Improvement
+5.92,5.41,4.75,5.48,6.12,Needs Improvement
+3.0,2.72,4.88,3.38,3.95,Not Ready
+8.35,8.9,7.29,6.2,6.94,Job Ready
+6.05,2.39,2.73,5.51,2.58,Not Ready
+6.04,5.86,5.36,4.84,4.6,Needs Improvement
+4.83,5.3,6.54,6.8,5.73,Needs Improvement
+5.17,1.3,1.48,4.72,3.87,Not Ready
+4.72,5.38,5.35,5.16,5.5,Needs Improvement
+5.97,7.03,4.15,5.97,5.24,Needs Improvement
+4.02,4.71,5.81,5.41,6.18,Needs Improvement
+8.35,6.19,7.26,7.15,7.62,Job Ready
+7.1,6.05,6.45,6.97,6.16,Job Ready
+9.94,7.35,8.56,8.53,9.55,Highly Job Ready
+5.64,4.22,4.8,6.6,5.75,Needs Improvement
+2.9,4.39,4.43,0.45,5.17,Not Ready
+6.96,7.36,8.51,7.99,6.46,Job Ready
+5.88,4.95,5.48,7.85,5.89,Needs Improvement
+2.45,2.91,3.08,2.58,2.59,Not Ready
+9.2,9.41,9.39,8.94,8.89,Highly Job Ready
+9.07,8.44,8.78,9.19,9.42,Highly Job Ready
+6.73,7.23,7.25,9.85,6.38,Job Ready
+6.32,6.54,5.42,7.78,6.27,Job Ready
+3.27,3.3,4.18,4.47,2.76,Not Ready
+4.36,4.07,3.7,3.3,4.72,Not Ready
+8.61,8.72,8.18,8.17,9.78,Highly Job Ready
+4.28,5.25,5.11,3.81,1.06,Not Ready
+5.75,4.23,6.3,6.16,7.61,Needs Improvement
+8.34,6.62,7.23,7.4,8.6,Job Ready
+4.66,3.87,2.52,4.28,4.47,Not Ready
+9.99,8.68,7.89,8.31,7.73,Highly Job Ready
+7.76,9.29,9.67,8.36,9.63,Highly Job Ready
+5.84,6.46,6.69,6.67,5.7,Needs Improvement
+5.65,7.36,5.31,6.08,8.07,Needs Improvement
+6.14,6.04,6.45,7.44,5.96,Needs Improvement
+8.53,6.18,6.34,6.89,6.93,Job Ready
+8.81,8.98,8.39,8.85,9.2,Highly Job Ready
+9.42,8.75,8.47,8.93,7.92,Highly Job Ready
+8.64,9.44,10.0,9.77,9.32,Highly Job Ready
+7.95,8.91,9.16,7.46,8.59,Highly Job Ready
+7.8,8.29,6.44,6.98,6.24,Job Ready
+4.44,4.16,4.93,2.46,6.11,Not Ready
+8.03,10.0,10.0,9.86,9.63,Highly Job Ready
+6.11,5.84,5.84,6.03,5.77,Needs Improvement
+10.0,10.0,8.98,9.16,9.57,Highly Job Ready
+4.8,4.0,7.02,5.01,5.78,Needs Improvement
+6.83,5.49,5.63,5.44,3.98,Needs Improvement
+5.71,6.24,7.4,8.13,6.82,Job Ready
+2.81,6.63,5.87,3.33,3.38,Not Ready
+4.39,3.14,5.27,3.08,3.07,Not Ready
+9.63,8.72,8.57,8.37,7.62,Highly Job Ready
+6.04,6.52,4.63,4.8,4.14,Needs Improvement
+6.5,4.7,4.94,5.95,6.72,Needs Improvement
+8.0,8.75,9.0,8.31,7.32,Job Ready
+2.7,4.66,1.86,2.73,5.54,Not Ready
+4.2,6.54,4.28,4.25,3.61,Not Ready
+6.72,6.35,5.57,5.64,5.39,Needs Improvement
+8.79,8.43,8.46,8.99,8.17,Highly Job Ready
+7.65,7.3,7.54,4.83,6.67,Needs Improvement
+9.04,7.69,9.12,8.27,9.63,Highly Job Ready
+5.86,6.2,6.58,5.03,5.47,Needs Improvement
+6.81,6.38,5.87,5.09,4.78,Needs Improvement
+3.62,4.03,2.64,4.61,4.56,Not Ready
+6.97,6.17,7.42,7.13,5.69,Job Ready
+8.67,9.18,8.81,9.18,7.99,Highly Job Ready
+5.12,6.34,8.54,8.01,8.42,Job Ready
+9.37,9.93,8.42,7.61,9.12,Highly Job Ready
+6.77,8.33,8.14,7.48,7.95,Job Ready
+5.49,3.97,4.27,3.94,4.31,Not Ready
+7.73,8.89,8.53,7.82,9.14,Highly Job Ready
+8.74,8.44,7.84,7.62,7.23,Job Ready
+6.37,4.94,5.55,4.03,5.33,Needs Improvement
+8.63,9.79,9.27,9.22,8.0,Highly Job Ready
+8.45,7.52,7.95,8.81,7.59,Highly Job Ready
+4.47,3.23,1.72,3.11,2.54,Not Ready
+7.18,6.37,8.51,7.63,6.7,Job Ready
+7.08,8.1,5.35,4.55,3.67,Needs Improvement
+5.33,8.24,7.12,8.86,5.83,Job Ready
+4.32,5.24,4.72,7.48,6.63,Needs Improvement
+7.79,8.96,8.77,8.88,8.82,Highly Job Ready
+7.24,6.11,7.63,7.29,8.93,Job Ready
+6.64,6.55,4.45,4.44,5.08,Needs Improvement
+8.02,8.92,9.5,7.64,8.44,Highly Job Ready
+5.49,8.08,7.51,7.03,6.48,Job Ready
+5.95,7.89,5.78,5.14,5.63,Needs Improvement
+6.48,5.91,4.61,5.64,7.11,Needs Improvement
+8.69,9.48,9.32,9.46,7.0,Highly Job Ready
+8.23,8.75,8.63,8.47,8.51,Highly Job Ready
+5.37,7.89,5.76,7.66,7.12,Job Ready
+6.07,7.96,7.72,8.39,7.12,Job Ready
+8.04,5.46,5.4,5.91,6.74,Needs Improvement
+3.51,4.45,2.31,4.21,6.0,Not Ready
+8.49,6.09,7.13,8.19,7.27,Job Ready
+3.93,3.8,5.49,0.98,2.17,Not Ready
+2.32,2.54,5.91,7.14,2.45,Not Ready
+4.75,4.12,5.37,3.86,4.37,Not Ready
+6.1,7.69,7.48,7.11,7.27,Job Ready
+5.43,6.53,5.57,5.44,4.89,Needs Improvement
+7.76,7.09,4.0,7.15,6.69,Needs Improvement
+8.62,9.14,8.95,8.45,7.54,Highly Job Ready
+8.57,8.43,10.0,8.37,7.46,Highly Job Ready
+5.89,4.86,5.75,5.81,6.88,Needs Improvement
+4.76,2.26,3.33,3.13,3.75,Not Ready
+6.72,8.1,4.48,7.19,5.87,Needs Improvement
+3.41,2.18,1.53,3.5,3.86,Not Ready
+2.22,3.44,4.22,4.5,3.64,Not Ready
+6.82,6.95,6.91,8.35,7.27,Job Ready
+6.75,7.18,6.96,7.77,8.81,Job Ready
+8.21,7.95,8.43,5.66,7.52,Job Ready
+3.19,4.07,3.83,5.64,3.52,Not Ready
+7.71,8.72,8.04,9.73,8.05,Highly Job Ready
+3.46,3.88,3.0,4.94,2.44,Not Ready
+4.13,6.47,5.54,3.45,3.12,Not Ready
+4.04,4.82,4.36,5.18,4.13,Not Ready
+7.37,5.63,6.23,6.32,4.82,Needs Improvement
+9.34,7.08,9.12,9.49,8.43,Highly Job Ready
+5.83,8.6,8.47,7.81,6.54,Job Ready
+3.28,3.88,2.31,5.76,5.09,Not Ready
+4.27,4.25,2.47,3.98,4.98,Not Ready
+7.05,7.27,8.06,6.74,7.19,Job Ready
+4.9,6.74,6.21,5.37,5.94,Needs Improvement
+4.33,2.04,4.06,4.65,4.23,Not Ready
+4.65,6.73,5.87,4.98,6.57,Needs Improvement
+6.83,7.63,7.32,7.04,7.02,Job Ready
+9.4,9.39,9.78,7.72,8.21,Highly Job Ready
+8.07,7.7,8.8,10.0,9.62,Highly Job Ready
+5.23,7.03,1.83,2.95,3.09,Not Ready
+5.37,4.83,2.97,2.07,0.39,Not Ready
+9.11,9.1,10.0,9.2,9.54,Highly Job Ready
+3.53,3.45,3.92,5.75,2.26,Not Ready
+9.18,9.48,9.2,10.0,8.42,Highly Job Ready
+5.1,4.51,4.49,4.4,2.54,Not Ready
+9.4,7.64,8.49,8.82,10.0,Highly Job Ready
+7.59,7.7,8.12,7.12,7.16,Job Ready
+9.17,9.2,9.38,9.0,8.04,Highly Job Ready
+5.0,2.19,3.04,6.01,5.1,Not Ready
+7.03,7.65,7.69,6.81,7.7,Job Ready
+6.12,3.75,5.76,4.83,5.9,Needs Improvement
+7.89,7.18,6.62,7.81,7.25,Job Ready
+5.14,4.26,5.29,6.64,5.29,Needs Improvement
+4.98,6.53,6.22,6.23,6.07,Needs Improvement
+8.53,9.94,8.04,8.43,8.21,Highly Job Ready
+4.58,4.82,5.74,5.45,7.13,Needs Improvement
+6.66,6.08,7.5,4.38,5.79,Needs Improvement
+7.48,8.51,6.31,7.05,8.53,Job Ready
+2.13,5.34,5.24,3.51,4.22,Not Ready
+4.05,5.89,7.69,5.69,4.15,Needs Improvement
+7.69,9.01,7.47,8.6,9.57,Highly Job Ready
+5.89,5.66,5.77,4.43,4.89,Needs Improvement
+7.3,6.38,7.08,7.19,6.74,Job Ready
+6.64,8.23,6.96,6.41,6.94,Job Ready
+5.04,5.18,3.6,1.35,4.51,Not Ready
+6.88,5.41,6.37,6.67,7.36,Job Ready
+2.47,3.29,3.59,3.06,4.48,Not Ready
+7.2,7.47,6.33,6.99,6.1,Job Ready
+8.06,7.29,7.03,7.09,8.14,Job Ready
+5.65,7.16,7.1,6.03,5.02,Needs Improvement
+6.98,5.17,6.69,5.06,7.53,Needs Improvement
+9.14,8.18,8.18,9.04,8.04,Highly Job Ready
+9.48,7.2,6.93,8.16,7.5,Job Ready
+1.14,3.86,3.26,4.33,4.61,Not Ready
+9.18,8.36,8.71,8.53,7.1,Highly Job Ready
+2.69,2.97,6.25,2.86,4.76,Not Ready
+7.81,8.96,9.13,8.97,8.29,Highly Job Ready
+6.71,5.69,6.37,8.16,9.2,Job Ready
+9.11,8.19,8.17,9.26,8.39,Highly Job Ready
+4.52,5.77,6.41,2.61,3.88,Not Ready
+4.16,3.34,4.08,4.11,2.49,Not Ready
+2.63,3.86,3.49,3.41,4.51,Not Ready
+7.21,6.02,5.6,7.93,6.66,Job Ready
+7.19,6.45,9.29,8.2,7.53,Job Ready
+8.57,9.35,8.51,8.68,8.52,Highly Job Ready
+3.84,1.46,4.04,4.68,3.48,Not Ready
+8.96,9.4,8.45,8.28,9.68,Highly Job Ready
+10.0,7.93,8.72,7.87,8.55,Highly Job Ready
+8.36,7.82,7.7,8.88,9.16,Highly Job Ready
+6.75,4.91,4.94,5.73,5.37,Needs Improvement
+3.2,2.71,5.3,4.53,4.5,Not Ready
+7.59,8.55,6.81,6.75,7.26,Job Ready
+3.11,3.81,4.71,4.01,3.05,Not Ready
+9.85,9.85,9.28,9.26,10.0,Highly Job Ready
+8.48,7.87,6.92,6.42,8.27,Job Ready
+6.06,4.94,6.2,5.67,5.22,Needs Improvement
+7.95,6.43,7.33,7.34,9.28,Job Ready
+8.13,6.82,7.39,6.75,7.64,Job Ready
+4.0,4.14,3.37,1.78,4.18,Not Ready
+3.09,3.77,3.08,2.57,3.39,Not Ready
+8.93,8.96,8.6,9.41,9.68,Highly Job Ready
+5.5,2.94,2.85,4.03,4.77,Not Ready
+3.57,3.14,4.09,3.22,3.08,Not Ready
+7.83,9.1,6.92,7.41,6.74,Job Ready
+8.19,8.68,9.21,8.27,9.83,Highly Job Ready
+7.96,7.86,7.44,6.14,8.82,Job Ready
+8.53,8.18,9.63,9.15,9.01,Highly Job Ready
+4.83,6.3,5.91,5.98,7.65,Needs Improvement
+5.17,3.62,4.43,2.99,3.66,Not Ready
+4.06,6.7,5.96,2.82,3.47,Not Ready
+8.69,8.81,9.15,8.9,8.62,Highly Job Ready
+8.93,8.87,9.89,8.39,9.63,Highly Job Ready
+3.4,4.09,4.77,4.17,5.25,Not Ready
+5.84,6.89,5.82,4.66,6.32,Needs Improvement
+3.92,5.31,1.96,2.36,1.96,Not Ready
+8.12,8.1,9.29,7.82,9.17,Highly Job Ready
+7.49,8.12,6.99,7.34,8.3,Job Ready
+6.41,6.43,4.35,5.58,4.26,Needs Improvement
+8.75,9.84,8.51,8.49,7.69,Highly Job Ready
+5.9,7.06,8.43,7.69,9.02,Job Ready
+6.85,7.1,7.18,6.44,8.38,Job Ready
+5.13,4.58,4.37,5.61,5.24,Needs Improvement
+3.62,2.61,1.87,3.24,3.74,Not Ready
+7.78,5.72,8.38,7.83,8.06,Job Ready
+8.24,8.76,9.72,9.2,10.0,Highly Job Ready
+6.92,6.86,6.72,5.55,8.39,Job Ready
+4.67,5.97,4.52,4.66,4.81,Needs Improvement
+8.1,6.28,7.15,7.27,7.91,Job Ready
+7.96,6.41,7.2,5.97,5.73,Needs Improvement
+8.35,8.92,7.48,8.79,9.0,Highly Job Ready
+8.03,7.95,9.62,8.98,8.65,Highly Job Ready
+7.96,8.59,8.19,9.1,9.09,Highly Job Ready
+8.77,8.69,8.29,9.37,8.76,Highly Job Ready
+3.54,4.08,4.0,2.55,3.9,Not Ready
+8.85,8.94,8.34,8.69,9.0,Highly Job Ready
+5.99,3.84,5.82,3.69,3.95,Not Ready
+4.04,2.98,5.31,3.44,1.58,Not Ready
+6.87,5.01,5.73,4.07,6.87,Needs Improvement
+8.3,6.33,5.36,6.24,4.84,Needs Improvement
+8.44,8.94,8.84,9.11,8.74,Highly Job Ready
+6.26,5.93,5.71,5.01,5.73,Needs Improvement
+9.59,10.0,9.25,8.86,7.96,Highly Job Ready
+4.65,5.49,5.84,7.49,5.33,Needs Improvement
+4.64,2.73,2.65,3.84,4.0,Not Ready
+5.34,7.59,5.8,3.68,6.14,Needs Improvement
+8.18,9.54,8.88,8.53,8.77,Highly Job Ready
+6.95,5.49,5.6,6.43,5.24,Needs Improvement
+3.13,1.18,4.54,3.67,2.64,Not Ready
+8.9,9.25,9.71,8.78,10.0,Highly Job Ready
+3.9,4.05,3.5,5.5,2.76,Not Ready
+5.96,3.6,4.28,3.53,3.89,Not Ready
+7.63,7.72,8.58,6.4,6.83,Job Ready
+8.51,9.42,8.67,7.83,7.71,Highly Job Ready
+7.74,6.97,6.62,6.64,6.84,Job Ready
+3.15,3.08,5.32,4.18,3.56,Not Ready
+6.96,9.21,8.87,8.86,8.54,Highly Job Ready
+4.53,4.54,6.31,4.52,5.59,Needs Improvement
+5.86,5.91,5.95,6.79,4.77,Needs Improvement
+9.02,9.6,9.59,8.51,8.93,Highly Job Ready
+2.91,3.09,3.05,3.15,5.06,Not Ready
+8.77,8.89,8.62,8.46,8.44,Highly Job Ready
+8.98,9.25,8.89,9.24,9.29,Highly Job Ready
+6.33,4.41,4.75,5.01,4.99,Needs Improvement
+1.55,3.79,3.55,3.68,3.77,Not Ready
+2.76,5.61,1.84,2.14,5.08,Not Ready
+8.2,6.71,7.83,7.08,8.64,Job Ready
+9.04,9.37,8.94,9.16,8.59,Highly Job Ready
+2.32,4.62,4.08,3.09,5.47,Not Ready
+5.07,4.65,8.01,6.58,5.48,Needs Improvement
+9.01,7.94,8.75,8.04,8.07,Highly Job Ready
+9.26,9.65,8.37,9.01,8.03,Highly Job Ready
+6.41,6.98,6.13,8.1,7.22,Job Ready
+6.49,7.21,8.06,7.8,7.45,Job Ready
+5.1,6.22,3.14,3.78,5.9,Not Ready
+2.0,4.25,1.78,4.66,3.95,Not Ready
+5.91,5.51,5.0,6.47,6.98,Needs Improvement
+3.47,3.68,4.06,4.51,2.65,Not Ready
+4.5,4.87,5.11,5.46,4.51,Needs Improvement
+1.29,3.97,4.17,5.19,5.61,Not Ready
+8.22,8.88,8.82,8.17,8.33,Highly Job Ready
+4.13,3.51,3.75,3.89,3.02,Not Ready
+6.66,8.57,7.12,7.9,5.19,Job Ready
+1.64,2.56,4.81,4.11,4.27,Not Ready
+8.05,9.65,9.53,8.73,7.89,Highly Job Ready
+8.67,8.54,8.85,8.39,8.43,Highly Job Ready
+2.4,3.03,4.16,5.13,4.5,Not Ready
+8.95,7.95,8.43,8.56,9.18,Highly Job Ready
+7.37,7.8,10.0,8.09,9.73,Highly Job Ready
+7.01,9.22,8.13,9.1,9.71,Highly Job Ready
+3.29,4.93,4.12,3.0,2.8,Not Ready
+8.76,9.08,8.9,7.04,8.59,Highly Job Ready
+8.88,8.68,9.63,8.8,7.98,Highly Job Ready
+8.02,7.93,7.76,7.36,6.85,Job Ready
+7.44,6.79,6.83,7.2,7.26,Job Ready
+6.61,5.4,6.58,4.47,4.89,Needs Improvement
+4.25,4.37,4.85,4.03,4.36,Not Ready
+9.09,8.49,8.88,9.7,8.69,Highly Job Ready
+7.7,6.18,7.66,8.07,6.87,Job Ready
+6.71,6.97,5.74,5.6,5.49,Needs Improvement
+5.02,6.98,6.07,3.98,6.79,Needs Improvement
+8.02,7.48,7.51,7.42,6.24,Job Ready
+5.8,6.04,6.21,7.77,5.0,Needs Improvement
+6.85,7.81,8.79,8.76,9.21,Highly Job Ready
+9.31,7.79,7.97,9.13,9.49,Highly Job Ready
+8.68,9.82,8.53,8.92,9.19,Highly Job Ready
+4.71,4.5,3.55,1.68,3.28,Not Ready
+7.16,6.04,6.61,6.48,6.39,Needs Improvement
+6.46,7.16,5.36,6.26,5.57,Needs Improvement
+5.18,5.37,5.57,7.02,4.0,Needs Improvement
+7.27,7.84,5.03,7.47,7.26,Job Ready
+9.22,9.56,8.58,9.58,7.91,Highly Job Ready
+0.95,2.65,5.22,0.61,3.4,Not Ready
+6.15,7.29,6.28,4.12,6.23,Needs Improvement
+5.98,4.85,4.34,4.72,5.76,Needs Improvement
+2.28,3.24,4.28,3.68,3.05,Not Ready
+4.12,6.32,6.58,6.21,5.59,Needs Improvement
+5.9,4.46,4.55,4.49,6.27,Needs Improvement
+4.1,1.83,2.98,4.69,3.48,Not Ready
+6.77,6.72,7.38,8.16,9.24,Job Ready
+9.08,7.61,8.46,9.25,8.39,Highly Job Ready
+4.57,4.79,5.59,2.79,3.54,Not Ready
+7.14,7.1,7.31,7.98,8.7,Job Ready
+8.57,6.59,7.42,7.14,7.25,Job Ready
+7.36,7.0,5.82,5.52,5.67,Needs Improvement
+5.2,6.33,5.93,5.37,4.8,Needs Improvement
+9.88,8.31,8.63,9.03,9.12,Highly Job Ready
+6.35,6.2,5.47,5.03,6.32,Needs Improvement
+4.07,4.07,4.11,2.81,3.63,Not Ready
+6.27,7.77,6.6,8.23,6.2,Job Ready
+4.77,1.99,3.04,2.47,2.69,Not Ready
+4.69,4.3,3.37,3.65,2.22,Not Ready
+4.8,5.5,5.86,5.31,3.67,Not Ready
+7.16,8.75,9.53,9.83,8.23,Highly Job Ready
+6.89,5.76,4.47,6.72,5.45,Needs Improvement
+6.54,2.53,3.68,5.87,5.17,Not Ready
+8.93,7.0,7.63,5.97,8.59,Job Ready
+4.28,7.14,5.15,7.73,5.77,Needs Improvement
+7.26,7.01,7.83,6.69,7.14,Job Ready
+8.87,8.07,8.87,8.06,9.57,Highly Job Ready
+6.7,8.36,8.56,6.32,6.91,Job Ready
+7.44,7.51,7.72,6.81,6.16,Job Ready
+8.29,8.0,8.36,7.26,8.16,Job Ready
+7.59,7.0,6.91,6.16,7.37,Job Ready
+3.91,6.49,3.37,4.17,2.88,Not Ready
+8.5,7.79,8.7,8.54,9.56,Highly Job Ready
+6.25,7.87,7.42,9.5,8.54,Job Ready
+4.69,6.52,5.52,3.41,3.78,Needs Improvement
+8.9,8.95,8.93,9.45,9.17,Highly Job Ready
+10.0,8.95,8.39,8.66,9.11,Highly Job Ready
+7.62,7.51,7.08,7.54,8.15,Job Ready
+6.87,6.94,6.11,7.22,6.8,Needs Improvement
+4.25,4.43,4.07,4.91,3.9,Not Ready
+8.91,8.66,9.79,8.49,9.05,Highly Job Ready
+6.24,4.07,1.66,2.65,1.8,Not Ready
+5.66,3.95,2.65,3.67,3.76,Not Ready
+8.48,7.68,7.21,7.83,7.36,Job Ready
+6.62,6.0,4.31,6.53,7.0,Needs Improvement
+7.68,6.96,8.01,7.43,7.97,Job Ready
+6.09,6.65,6.51,6.88,5.8,Needs Improvement
+6.45,4.93,7.44,6.31,5.43,Needs Improvement
+7.22,7.49,6.95,7.59,7.32,Job Ready
+7.28,5.62,7.04,6.13,6.25,Needs Improvement
+6.84,8.56,7.39,6.82,6.33,Job Ready
+2.68,2.75,4.44,3.55,4.54,Not Ready
+6.36,5.8,6.75,6.06,6.77,Job Ready
+4.81,4.69,3.88,5.1,4.34,Not Ready
+7.45,7.08,9.38,8.41,6.69,Job Ready
+8.7,8.3,8.8,8.62,8.4,Highly Job Ready
+8.73,9.28,8.46,8.26,9.27,Highly Job Ready
+4.27,3.26,6.53,1.8,4.03,Not Ready
+9.52,8.7,7.22,9.05,9.76,Highly Job Ready
+8.61,9.15,8.72,7.59,8.32,Highly Job Ready
+5.36,2.94,3.07,4.51,1.12,Not Ready
+4.91,4.14,1.97,3.66,4.65,Not Ready
+4.63,5.44,3.27,3.92,1.49,Not Ready
+5.58,5.63,6.37,5.67,5.54,Needs Improvement
+7.6,5.5,8.06,6.72,8.34,Job Ready
+1.67,3.59,3.82,3.55,2.86,Not Ready
+4.34,3.37,3.22,3.33,3.51,Not Ready
+3.43,2.8,3.94,3.14,3.61,Not Ready
+6.14,6.48,5.71,6.83,5.81,Needs Improvement
+3.75,5.28,4.27,4.7,2.76,Not Ready
+5.72,4.98,5.87,5.21,4.9,Needs Improvement
+4.07,3.97,4.47,6.31,4.12,Not Ready
+5.71,7.27,5.61,6.05,4.54,Needs Improvement
+5.78,5.02,4.17,5.38,6.52,Needs Improvement
+8.21,8.87,7.08,7.33,6.86,Job Ready
+7.53,8.74,9.75,8.29,8.66,Highly Job Ready
+2.05,4.98,2.63,3.92,3.52,Not Ready
+6.18,6.58,5.12,6.8,4.36,Needs Improvement
+2.32,3.76,3.86,1.32,2.75,Not Ready
+4.23,2.5,5.33,5.23,4.9,Not Ready
+6.42,7.43,6.99,6.16,7.87,Job Ready
+9.19,8.53,8.19,8.85,8.96,Highly Job Ready
+7.78,7.87,6.06,7.69,6.44,Job Ready
+4.91,5.54,2.88,4.15,2.97,Not Ready
+3.6,4.91,3.76,4.41,3.57,Not Ready
+6.47,6.15,7.1,6.66,7.47,Job Ready
+8.5,6.3,6.33,7.1,7.03,Job Ready
+4.0,6.12,5.98,6.33,4.53,Needs Improvement
+2.0,2.97,3.13,3.38,2.22,Not Ready
+4.13,4.31,4.95,4.68,6.1,Needs Improvement
+2.46,3.84,3.97,3.26,4.3,Not Ready
+8.79,9.24,8.68,9.55,8.52,Highly Job Ready
+4.02,6.34,3.2,4.29,5.03,Not Ready
+9.28,8.68,8.63,8.92,9.37,Highly Job Ready
+4.84,5.13,5.47,4.44,5.4,Needs Improvement
+5.38,6.52,6.09,6.36,5.74,Needs Improvement
+5.56,6.61,6.02,6.02,4.73,Needs Improvement
+8.28,7.27,6.32,8.61,6.99,Job Ready
+4.86,4.56,6.0,2.92,2.21,Not Ready
+9.86,9.26,7.9,8.93,10.0,Highly Job Ready
+4.33,5.51,6.84,6.32,4.56,Needs Improvement
+8.18,8.61,8.7,8.51,9.33,Highly Job Ready
+4.99,6.42,5.01,4.11,6.77,Needs Improvement
+7.33,5.9,5.21,5.21,5.18,Needs Improvement
+8.32,8.96,7.95,8.48,7.95,Job Ready
+7.74,8.71,7.9,8.98,9.87,Highly Job Ready
+9.06,8.52,9.42,8.76,9.92,Highly Job Ready
+7.07,5.69,6.8,4.95,7.5,Job Ready
+2.94,4.26,4.44,3.08,4.94,Not Ready
+8.45,9.71,9.19,8.78,9.15,Highly Job Ready
+6.9,6.12,7.9,8.25,7.04,Job Ready
+3.38,3.24,4.84,3.84,4.12,Not Ready
+4.91,2.97,2.82,4.33,4.94,Not Ready
+5.9,7.44,3.98,6.06,4.49,Needs Improvement
+6.49,6.92,8.36,7.34,5.97,Job Ready
+9.37,9.15,8.98,8.87,9.38,Highly Job Ready
+8.9,9.17,8.32,8.93,8.98,Highly Job Ready
+5.77,6.0,6.28,5.2,7.19,Needs Improvement
+3.37,4.85,1.81,4.79,3.36,Not Ready
+8.65,9.36,9.2,7.96,8.04,Highly Job Ready
+7.92,7.22,6.93,6.49,9.05,Job Ready
+9.6,8.42,9.72,9.71,8.84,Highly Job Ready
+3.0,3.61,5.0,4.25,2.19,Not Ready
+9.41,7.76,8.99,8.25,7.87,Highly Job Ready
+6.57,4.23,7.19,6.55,5.76,Needs Improvement
+4.3,5.81,4.75,4.15,5.93,Needs Improvement
+5.85,4.87,5.41,5.55,5.11,Needs Improvement
+5.01,7.85,6.25,6.48,4.27,Needs Improvement
+3.7,1.96,3.96,4.32,3.54,Not Ready
+6.2,6.18,7.65,5.17,6.66,Needs Improvement
+8.09,6.31,7.31,6.35,6.46,Job Ready
+7.74,8.07,7.72,7.75,6.46,Job Ready
+10.0,9.2,8.95,7.9,9.0,Highly Job Ready
+4.59,3.31,3.98,4.52,3.44,Not Ready
+4.53,6.69,5.48,6.62,5.03,Needs Improvement
+4.39,6.83,4.56,6.56,5.13,Needs Improvement
+10.0,8.72,8.77,9.79,8.44,Highly Job Ready
+8.08,8.12,8.13,8.57,8.0,Highly Job Ready
+6.71,6.57,5.65,5.53,4.15,Needs Improvement
+4.39,1.25,5.49,3.99,4.95,Not Ready
+7.78,8.43,9.73,8.12,8.31,Highly Job Ready
+4.21,4.68,3.94,3.95,4.75,Not Ready
+7.59,8.68,8.52,7.63,7.04,Job Ready
+5.73,7.4,6.9,6.93,8.98,Job Ready
+7.15,5.64,7.02,7.31,7.44,Job Ready
+6.58,7.38,6.28,6.42,6.06,Job Ready
+4.32,5.74,5.26,5.16,6.21,Needs Improvement
+4.57,5.55,7.07,6.03,4.52,Needs Improvement
+7.88,8.05,9.41,8.52,8.03,Highly Job Ready
+9.44,9.47,7.73,8.27,8.5,Highly Job Ready
+9.07,9.13,7.91,8.91,8.72,Highly Job Ready
+5.7,6.33,6.02,6.94,5.87,Needs Improvement
+4.95,4.42,5.34,3.62,3.0,Not Ready
+2.06,4.75,4.27,1.95,3.77,Not Ready
+7.87,6.85,7.31,8.5,7.99,Job Ready
+3.17,6.58,4.3,3.16,4.33,Not Ready
+9.08,5.89,7.0,6.42,8.14,Job Ready
+8.08,9.97,7.93,8.58,8.18,Highly Job Ready
+8.32,9.52,9.6,8.61,9.88,Highly Job Ready
+4.53,3.18,5.12,1.05,2.9,Not Ready
+8.76,9.47,9.2,9.1,8.54,Highly Job Ready
+3.67,3.92,4.78,5.38,3.8,Not Ready
+7.94,8.96,9.5,9.03,8.74,Highly Job Ready
+7.01,5.29,6.03,5.75,4.19,Needs Improvement
+6.16,4.04,4.9,7.08,7.53,Needs Improvement
+4.72,7.06,5.18,7.71,6.36,Needs Improvement
+6.69,7.82,7.26,7.44,7.6,Job Ready
+8.44,9.08,9.27,7.91,9.69,Highly Job Ready
+5.66,5.64,5.26,5.63,5.86,Needs Improvement
+7.49,7.82,7.3,7.39,6.41,Job Ready
+3.62,4.24,4.95,2.58,3.66,Not Ready
+6.44,8.46,7.18,8.91,7.22,Job Ready
+7.14,7.99,7.92,8.27,6.59,Job Ready
+7.15,7.74,6.29,5.9,8.99,Job Ready
+8.81,6.58,7.14,7.63,6.57,Job Ready
+1.91,4.13,3.39,1.07,3.18,Not Ready
+7.46,7.47,7.4,5.58,7.23,Job Ready
+6.89,6.32,6.03,5.94,5.63,Needs Improvement
+6.07,7.49,7.36,8.76,7.1,Job Ready
+8.83,8.72,8.7,8.53,7.95,Highly Job Ready
+8.74,7.41,8.55,9.56,8.51,Highly Job Ready
+7.24,6.63,7.37,6.93,8.23,Job Ready
+8.44,8.27,8.9,8.49,9.37,Highly Job Ready
+6.8,9.14,7.08,6.67,8.28,Job Ready
+3.08,2.96,4.69,4.73,3.63,Not Ready
+5.86,5.43,5.78,5.76,5.97,Needs Improvement
+2.11,4.45,0.81,4.04,3.25,Not Ready
+8.0,6.9,6.59,6.37,7.66,Job Ready
+8.53,8.95,8.06,9.65,8.92,Highly Job Ready
+3.53,1.75,2.88,4.43,4.25,Not Ready
+2.77,3.5,3.01,5.39,3.61,Not Ready
+8.9,8.77,8.13,9.3,8.8,Highly Job Ready
+5.09,4.67,6.78,4.18,6.68,Needs Improvement
+9.35,7.65,8.74,9.1,8.83,Highly Job Ready
+6.58,7.1,6.95,7.02,6.19,Job Ready
+9.25,8.8,8.49,8.61,8.35,Highly Job Ready
+4.95,5.17,2.63,1.66,3.91,Not Ready
+9.6,8.45,8.64,9.49,8.74,Highly Job Ready
+8.72,8.66,8.98,8.38,10.0,Highly Job Ready
+6.17,5.29,6.55,5.14,4.82,Needs Improvement
+6.21,5.27,6.85,4.96,5.25,Needs Improvement
+6.94,5.88,4.45,8.04,5.77,Needs Improvement
+3.67,4.54,5.29,5.01,6.18,Needs Improvement
+5.89,5.81,5.75,5.25,5.37,Needs Improvement
+7.51,6.65,7.33,5.08,6.38,Job Ready
+6.89,8.19,7.2,7.82,7.87,Job Ready
+7.87,8.82,8.16,6.8,6.45,Job Ready
+6.98,6.48,7.17,6.82,6.44,Job Ready
+7.04,6.34,7.45,6.95,6.49,Job Ready
+3.49,2.73,2.8,1.92,4.07,Not Ready
+9.77,7.85,9.28,8.48,8.2,Highly Job Ready
+7.62,6.5,6.65,8.09,8.81,Job Ready
+6.41,7.35,5.74,8.07,5.34,Needs Improvement
+4.26,5.46,6.34,5.14,8.19,Needs Improvement
+6.93,7.58,5.76,6.68,7.06,Job Ready
+8.01,9.94,8.1,9.23,8.93,Highly Job Ready
+8.32,8.45,9.02,9.19,9.3,Highly Job Ready
+7.51,6.89,6.5,6.29,5.9,Job Ready
+6.75,6.62,6.3,7.13,8.8,Job Ready
+4.64,5.36,6.36,6.37,5.11,Needs Improvement
+4.8,6.1,5.67,5.87,6.79,Needs Improvement
+8.55,8.36,9.12,8.06,9.3,Highly Job Ready
+7.22,5.85,7.18,7.82,6.16,Job Ready
+6.07,6.35,5.67,5.5,5.64,Needs Improvement
+5.45,6.26,6.3,6.64,7.15,Needs Improvement
+8.8,8.62,9.22,9.5,8.74,Highly Job Ready
+8.81,9.45,8.9,9.83,8.11,Highly Job Ready
+6.47,8.14,8.29,7.46,6.03,Job Ready
+7.66,7.43,8.23,6.68,7.33,Job Ready
+2.91,3.29,5.32,4.56,3.82,Not Ready
+8.05,7.04,7.85,7.49,7.91,Job Ready
+3.91,5.24,2.55,4.19,2.75,Not Ready
+9.08,8.88,10.0,7.36,9.11,Highly Job Ready
+1.89,3.79,4.11,3.45,1.67,Not Ready
+7.91,7.17,7.78,6.76,7.15,Job Ready
+2.28,4.78,2.88,4.53,3.79,Not Ready
+4.66,6.41,6.11,6.51,6.63,Needs Improvement
+7.54,8.85,8.23,8.53,9.0,Highly Job Ready
+9.38,9.63,9.08,9.48,8.37,Highly Job Ready
+2.7,4.92,4.6,3.92,2.92,Not Ready
+6.11,7.99,7.4,7.46,8.52,Job Ready
+9.17,9.43,8.71,7.91,7.91,Highly Job Ready
+3.51,3.98,5.49,0.85,3.53,Not Ready
+5.06,8.34,5.55,4.42,5.14,Needs Improvement
+7.85,8.55,9.38,8.95,7.73,Highly Job Ready
+9.03,8.8,9.48,8.2,9.17,Highly Job Ready
+8.32,8.62,8.62,10.0,8.54,Highly Job Ready
+3.27,4.56,4.87,4.36,3.5,Not Ready
+6.45,5.73,5.45,6.83,5.29,Needs Improvement
+7.73,8.12,9.45,6.97,6.84,Job Ready
+6.23,7.12,7.39,7.5,7.7,Job Ready
+8.72,8.77,8.64,9.09,9.21,Highly Job Ready
+6.61,5.43,7.61,6.36,6.39,Job Ready
+7.5,6.58,7.14,7.57,4.4,Job Ready
+9.45,7.46,7.86,5.87,6.89,Job Ready
+8.85,9.1,8.63,9.23,9.83,Highly Job Ready
+2.39,4.09,5.89,1.9,2.33,Not Ready
+8.37,6.57,6.88,8.84,7.5,Job Ready
+8.64,9.14,8.63,8.58,9.47,Highly Job Ready
+4.22,6.58,5.23,5.43,4.04,Needs Improvement
+4.91,5.99,6.22,4.08,6.25,Needs Improvement
+3.49,3.66,4.75,1.51,2.31,Not Ready
+6.14,4.95,3.48,5.35,6.52,Needs Improvement
+7.56,7.71,6.16,7.3,7.73,Job Ready
+3.16,5.03,4.49,3.65,4.51,Not Ready
+7.4,8.65,6.65,7.3,6.19,Job Ready
+8.16,9.67,9.75,8.97,9.26,Highly Job Ready
+3.91,2.84,3.12,2.1,2.78,Not Ready
+9.02,8.92,9.82,9.09,9.66,Highly Job Ready
+3.86,3.66,5.14,3.59,3.0,Not Ready
+6.26,3.33,3.21,2.86,4.51,Not Ready
+7.12,6.02,6.4,6.07,6.03,Needs Improvement
+8.78,9.16,7.86,8.96,8.76,Highly Job Ready
+5.7,7.36,6.1,6.22,6.79,Needs Improvement
+6.72,6.23,5.63,5.67,6.5,Needs Improvement
+2.44,4.18,4.08,5.05,4.43,Not Ready
+3.18,3.34,4.42,2.85,3.33,Not Ready
+7.46,8.62,6.04,6.53,9.68,Job Ready
+3.7,3.29,0.4,2.37,5.09,Not Ready
+5.54,5.69,5.7,5.73,5.62,Needs Improvement
+9.29,8.57,9.63,8.8,8.88,Highly Job Ready
+8.81,6.63,7.93,7.25,7.02,Job Ready
+5.47,7.33,8.47,7.34,7.01,Job Ready
+7.29,6.17,4.54,4.34,5.69,Needs Improvement
+8.92,9.77,8.31,9.48,8.38,Highly Job Ready
+8.83,8.61,7.84,8.78,8.59,Highly Job Ready
+9.17,9.49,9.11,9.44,7.96,Highly Job Ready
+8.47,10.0,7.94,9.08,8.96,Highly Job Ready
+8.96,8.49,8.06,9.28,9.33,Highly Job Ready
+8.57,8.4,7.47,7.08,7.73,Job Ready
+8.36,8.69,8.46,9.65,8.67,Highly Job Ready
+5.05,1.77,4.92,3.81,3.57,Not Ready
+4.71,4.93,5.29,5.85,2.8,Not Ready
+5.82,4.82,5.33,4.65,4.59,Needs Improvement
+6.73,6.8,7.24,7.57,7.71,Job Ready
+7.02,6.7,6.82,8.78,7.56,Job Ready
+8.0,8.36,8.7,8.67,9.99,Highly Job Ready
+4.13,5.23,3.3,0.92,1.84,Not Ready
+5.18,6.38,7.25,7.35,8.73,Job Ready
+5.11,5.84,5.5,4.29,4.93,Needs Improvement
+2.6,4.35,3.65,1.69,4.87,Not Ready
+8.15,8.67,8.66,9.26,9.1,Highly Job Ready
+7.83,10.0,8.48,8.48,9.43,Highly Job Ready
+4.22,4.6,6.42,4.92,1.98,Not Ready
+9.14,9.43,7.64,9.04,9.5,Highly Job Ready
+2.97,4.16,3.69,6.21,5.61,Not Ready
+8.33,7.61,8.28,8.31,8.3,Highly Job Ready
+6.24,4.55,6.95,7.92,6.75,Needs Improvement
+6.2,5.78,5.32,4.33,5.31,Needs Improvement
+4.61,2.24,2.89,5.3,4.77,Not Ready
+4.65,3.62,3.05,4.43,4.02,Not Ready
+5.06,6.28,6.14,4.77,6.94,Needs Improvement
+8.72,7.6,8.97,7.26,8.11,Job Ready
+6.82,5.47,6.54,5.85,4.95,Needs Improvement
+4.12,2.64,4.63,3.87,1.62,Not Ready
+8.12,4.28,4.8,4.81,4.38,Needs Improvement
+6.02,7.32,6.2,6.49,6.91,Needs Improvement
+8.02,8.42,8.22,9.74,8.23,Highly Job Ready
+4.57,3.69,3.31,3.71,1.86,Not Ready
+3.5,3.87,3.92,4.05,4.69,Not Ready
+6.33,6.93,7.51,5.67,7.26,Job Ready
+2.75,4.75,4.86,4.55,4.66,Not Ready
+8.49,8.36,8.88,9.18,10.0,Highly Job Ready
+3.69,3.42,6.91,4.25,2.97,Not Ready
+9.84,8.99,8.65,9.29,9.11,Highly Job Ready
+7.63,8.76,7.97,8.33,6.78,Job Ready
+5.58,6.04,5.97,6.31,4.93,Needs Improvement
+5.83,3.95,4.93,3.23,2.44,Not Ready
+6.55,5.33,4.08,6.05,6.49,Needs Improvement
+6.41,5.07,5.25,5.36,4.04,Needs Improvement
+5.63,4.46,6.74,3.2,5.38,Needs Improvement
+3.57,2.52,3.54,1.97,2.75,Not Ready
+6.19,5.02,5.73,5.71,3.7,Needs Improvement
+2.4,2.84,3.97,3.78,4.13,Not Ready
+5.55,6.72,6.63,4.87,4.99,Needs Improvement
+8.68,9.42,7.68,6.17,6.64,Job Ready
+5.57,7.06,6.4,4.67,5.95,Needs Improvement
+8.8,8.49,8.55,8.41,9.87,Highly Job Ready
+5.75,8.02,6.54,8.19,10.0,Job Ready
+5.99,3.28,4.1,4.98,3.61,Not Ready
+6.15,6.59,5.69,7.49,6.03,Needs Improvement
+3.98,4.69,4.73,1.94,1.22,Not Ready
+7.27,7.27,8.73,4.89,6.49,Job Ready
+3.75,4.31,3.45,3.33,3.91,Not Ready
+4.03,5.05,5.33,3.72,5.36,Not Ready
+2.79,3.69,1.78,2.11,6.25,Not Ready
+5.5,3.58,1.44,3.58,4.73,Not Ready
+4.03,2.54,4.26,3.87,2.3,Not Ready
+4.65,6.48,4.68,7.36,4.17,Needs Improvement
+7.18,8.02,7.77,6.66,7.42,Job Ready
+7.49,7.25,8.03,7.82,4.76,Job Ready
+6.06,6.78,6.96,6.97,7.43,Job Ready
+5.91,7.9,7.95,7.34,6.56,Job Ready
+9.05,8.68,8.32,9.51,9.03,Highly Job Ready
+6.33,6.04,6.76,6.26,6.96,Needs Improvement
+9.29,9.07,8.62,8.73,9.29,Highly Job Ready
+5.01,3.02,2.81,4.35,2.03,Not Ready
+7.1,6.55,7.59,6.67,7.14,Job Ready
+7.68,9.2,8.05,9.0,8.89,Highly Job Ready
+6.62,6.04,6.28,4.44,7.5,Needs Improvement
+5.64,6.92,7.44,7.65,7.18,Job Ready
+8.39,8.66,8.45,8.79,9.96,Highly Job Ready
+6.36,5.72,4.88,4.89,7.17,Needs Improvement
+3.7,3.76,3.55,2.14,3.21,Not Ready
+6.93,6.68,6.83,7.14,7.22,Job Ready
+8.79,7.93,9.05,7.58,9.03,Highly Job Ready
+7.22,8.51,8.75,8.56,7.97,Job Ready
+8.9,7.57,8.85,9.13,9.21,Highly Job Ready
+6.61,8.4,7.95,6.71,7.33,Job Ready
+5.36,3.93,6.81,5.54,6.5,Needs Improvement
+8.01,6.93,7.09,6.34,6.75,Job Ready
+2.22,1.72,1.21,2.43,5.32,Not Ready
+7.79,6.01,6.12,6.96,7.07,Job Ready
+6.4,7.98,8.06,7.57,8.26,Job Ready
+6.68,6.4,5.71,6.16,7.08,Job Ready
+3.35,3.96,2.86,2.48,2.72,Not Ready
+3.86,4.35,4.38,4.49,3.37,Not Ready
+9.27,8.79,7.61,8.87,7.7,Highly Job Ready
+7.77,7.1,6.82,6.41,6.8,Job Ready
+3.5,4.77,4.07,3.68,5.37,Not Ready
+3.73,4.64,2.83,2.56,4.06,Not Ready
+6.32,7.76,6.69,6.73,8.73,Needs Improvement
+3.06,4.07,3.46,4.57,4.35,Not Ready
+4.93,6.73,6.72,4.85,6.27,Needs Improvement
+5.71,6.38,6.99,6.09,5.38,Needs Improvement
+6.17,3.54,2.33,3.88,2.56,Not Ready
+7.6,6.91,7.34,6.39,7.51,Job Ready
+5.84,6.52,5.93,4.57,5.03,Needs Improvement
+7.96,5.86,5.07,4.67,6.32,Needs Improvement
+6.95,6.11,8.66,7.24,8.92,Job Ready
+5.97,8.51,6.09,7.33,6.95,Needs Improvement
+7.18,7.66,7.59,7.79,7.78,Job Ready
+8.97,8.18,8.6,9.97,8.5,Highly Job Ready
+5.89,7.69,5.4,5.17,5.28,Needs Improvement
+9.0,6.83,8.84,7.3,8.81,Job Ready
+4.32,4.45,3.93,4.18,4.69,Not Ready
+4.55,3.95,4.77,5.03,4.27,Needs Improvement
+3.23,6.03,3.82,5.28,4.1,Not Ready
+6.75,6.72,7.65,7.18,5.66,Job Ready
+8.26,6.99,7.26,7.25,7.97,Job Ready
+4.11,2.58,4.03,2.0,4.42,Not Ready
+6.07,4.82,5.51,5.14,6.37,Needs Improvement
+7.64,7.31,5.99,6.77,6.95,Job Ready
+3.29,5.47,3.95,4.1,5.6,Not Ready
+5.65,6.73,3.33,1.57,3.44,Not Ready
+8.31,8.72,8.36,8.79,8.12,Highly Job Ready
+6.75,6.58,6.35,4.85,7.01,Needs Improvement
+4.14,2.25,4.04,2.51,5.48,Not Ready
+8.32,8.16,9.6,8.02,8.67,Highly Job Ready
+3.71,3.88,5.92,5.46,4.75,Needs Improvement
+6.03,6.81,5.18,5.2,5.97,Needs Improvement
+8.49,9.55,8.54,9.21,8.92,Highly Job Ready
+2.81,3.18,4.42,2.7,4.3,Not Ready
+7.6,7.17,8.19,6.62,7.4,Job Ready
+5.08,3.52,2.61,3.73,5.01,Not Ready
+8.29,8.95,9.24,8.48,9.34,Highly Job Ready
+6.38,7.05,6.9,7.02,8.11,Job Ready
+9.63,8.37,7.34,8.15,8.09,Highly Job Ready
+9.49,8.67,8.78,8.43,8.8,Highly Job Ready
+7.1,7.34,6.56,7.91,8.46,Job Ready
+7.56,8.53,6.24,9.34,8.22,Job Ready
+8.52,8.1,8.46,8.48,8.36,Highly Job Ready
+5.56,5.6,6.19,6.35,5.01,Needs Improvement
+9.45,8.58,8.61,9.03,8.07,Highly Job Ready
+6.16,5.75,6.83,5.21,6.74,Needs Improvement
+6.23,5.55,5.17,7.39,5.62,Needs Improvement
+4.13,4.53,2.12,3.43,3.26,Not Ready
+9.06,8.47,8.99,9.78,8.93,Highly Job Ready
+9.43,6.64,6.83,10.0,7.66,Job Ready
+3.32,6.36,2.0,5.25,5.37,Not Ready
+6.64,5.71,6.18,5.29,6.34,Needs Improvement
+7.3,6.88,7.01,7.98,8.57,Job Ready
+3.67,6.44,3.9,5.85,4.21,Not Ready
+5.38,4.52,6.2,6.32,6.84,Needs Improvement
+6.43,5.16,5.85,5.21,5.3,Needs Improvement
+7.35,6.63,5.46,6.07,5.95,Needs Improvement
+5.8,6.05,7.79,6.12,3.54,Needs Improvement
+3.64,4.51,1.81,3.99,3.35,Not Ready
+8.24,6.87,6.75,8.39,8.28,Job Ready
+4.41,7.15,1.76,4.17,2.93,Not Ready
+7.13,6.56,8.79,6.42,6.68,Job Ready
+7.11,6.95,6.25,7.43,5.43,Needs Improvement
+3.56,7.59,5.66,6.35,4.49,Needs Improvement
+9.32,7.58,7.88,8.47,10.0,Highly Job Ready
+5.38,6.79,6.25,6.34,4.12,Needs Improvement
+5.98,4.8,7.03,4.72,5.39,Needs Improvement
+6.38,3.77,5.59,6.88,5.82,Needs Improvement
+4.06,5.32,7.03,3.13,5.45,Not Ready
+10.0,7.81,7.87,9.17,9.86,Highly Job Ready
+9.08,5.8,7.01,8.38,6.07,Job Ready
+2.94,2.36,4.39,4.25,1.75,Not Ready
+7.71,6.54,7.59,9.36,7.39,Job Ready
+6.15,5.3,5.55,5.08,5.65,Needs Improvement
+5.56,5.81,6.64,6.87,5.47,Needs Improvement
+6.81,6.45,6.73,5.84,6.54,Needs Improvement
+4.86,6.72,5.72,6.12,6.24,Needs Improvement
+6.13,8.02,6.53,8.07,7.12,Job Ready
+8.24,9.31,9.77,8.44,9.16,Highly Job Ready
+5.38,6.0,7.31,6.01,7.11,Needs Improvement
+2.6,5.07,3.33,2.17,4.31,Not Ready
+8.7,9.17,9.15,8.66,8.09,Highly Job Ready
+6.14,4.95,3.66,6.19,6.29,Needs Improvement
+4.68,2.39,5.13,7.09,4.22,Not Ready
+4.06,5.45,3.91,4.47,3.73,Not Ready
+7.08,7.05,6.71,7.66,7.5,Job Ready
+9.77,8.5,9.07,9.19,9.92,Highly Job Ready
+3.74,3.71,5.87,4.83,3.81,Not Ready
+4.7,4.8,2.87,1.72,5.58,Not Ready
+9.81,8.13,8.56,9.23,9.76,Highly Job Ready
+3.09,1.95,4.57,5.09,3.75,Not Ready
+9.52,8.68,8.17,7.7,8.69,Highly Job Ready
+5.47,6.53,7.4,6.54,4.41,Needs Improvement
+7.23,6.71,6.76,8.01,7.26,Job Ready
+8.52,8.59,7.99,9.05,8.47,Highly Job Ready
+5.62,7.27,8.04,7.68,9.2,Job Ready
+2.6,3.76,3.7,2.76,3.45,Not Ready
+5.14,4.07,7.47,6.58,6.53,Needs Improvement
+2.84,3.16,3.33,3.84,3.44,Not Ready
+3.86,4.08,1.76,3.05,4.05,Not Ready
+5.02,6.2,5.71,5.17,5.17,Needs Improvement
+7.16,7.89,7.47,6.11,7.22,Job Ready
+9.22,9.28,8.99,8.93,8.87,Highly Job Ready
+7.47,8.07,8.23,7.97,8.51,Job Ready
+7.99,8.4,8.21,9.95,9.39,Highly Job Ready
+7.8,7.98,7.13,6.7,7.86,Job Ready
+6.34,5.96,5.06,7.56,5.47,Needs Improvement
+9.06,7.52,8.38,9.11,8.13,Highly Job Ready
+5.48,6.59,5.98,4.55,4.46,Needs Improvement
+7.09,7.67,6.25,7.83,6.88,Job Ready
+4.27,5.5,5.96,6.54,6.66,Needs Improvement
+3.78,4.61,2.61,3.79,3.56,Not Ready
+9.51,9.41,9.23,7.64,9.53,Highly Job Ready
+6.93,8.67,7.78,8.13,7.67,Job Ready
+5.12,5.9,4.38,5.91,4.91,Needs Improvement
+3.21,5.41,2.6,2.88,4.04,Not Ready
+4.86,4.38,5.12,6.34,6.46,Needs Improvement
+7.15,8.73,7.37,6.96,6.91,Job Ready
+5.16,6.76,5.57,5.18,4.61,Needs Improvement
+6.74,8.56,7.71,6.61,7.38,Job Ready
+4.99,5.79,4.16,4.6,6.8,Needs Improvement
+3.93,5.09,3.78,1.2,3.58,Not Ready
+7.38,3.13,4.85,8.39,6.36,Needs Improvement
+7.09,6.58,7.83,6.62,6.46,Job Ready
+9.0,8.11,9.85,8.61,8.5,Highly Job Ready
+3.58,4.18,4.22,5.32,3.41,Not Ready
+3.74,2.83,2.4,2.79,3.42,Not Ready
+10.0,9.11,8.39,7.15,7.71,Highly Job Ready
+8.98,8.3,9.42,9.22,9.51,Highly Job Ready
+4.17,2.8,4.0,5.19,3.43,Not Ready
+5.95,5.9,7.66,6.61,7.56,Job Ready
+8.8,7.76,6.52,6.68,8.47,Job Ready
+7.05,6.89,7.7,6.97,7.53,Job Ready
+8.75,8.67,8.25,9.08,8.59,Highly Job Ready
+8.59,8.25,6.8,6.11,7.69,Job Ready
+6.17,7.13,6.23,5.73,6.38,Job Ready
+3.25,5.45,2.46,1.37,1.66,Not Ready
+6.11,5.2,4.96,6.8,5.74,Needs Improvement
+3.43,4.39,3.68,3.35,5.49,Not Ready
+9.11,7.25,6.16,6.16,7.96,Job Ready
+8.74,9.14,9.28,8.93,8.71,Highly Job Ready
+8.63,8.4,8.77,8.88,8.53,Highly Job Ready
+8.57,8.07,8.85,8.2,9.62,Highly Job Ready
+6.92,8.23,6.65,7.96,6.97,Job Ready
+4.65,4.46,3.58,4.8,6.4,Needs Improvement
+5.0,6.07,4.24,3.86,6.1,Needs Improvement
+3.35,5.5,4.38,2.29,4.57,Not Ready
+9.67,8.27,7.47,9.33,8.45,Highly Job Ready
+7.3,5.74,5.92,5.48,4.95,Needs Improvement
+6.24,6.28,7.23,4.18,5.36,Needs Improvement
+5.29,6.06,5.2,5.54,6.22,Needs Improvement
+8.63,7.44,8.01,9.21,8.64,Highly Job Ready
+6.25,7.87,7.13,7.34,7.77,Job Ready
+7.72,8.71,9.02,9.24,8.67,Highly Job Ready
+6.99,8.02,7.54,6.75,7.33,Job Ready
+8.53,8.78,8.94,8.2,8.65,Highly Job Ready
+4.74,4.52,5.24,3.2,3.3,Not Ready
+4.31,5.11,5.18,3.31,5.14,Not Ready
+1.7,4.64,5.88,5.44,1.93,Not Ready
+8.31,6.96,7.46,6.64,6.46,Job Ready
+3.0,4.06,3.8,4.12,3.0,Not Ready
+7.63,9.23,7.47,6.64,7.65,Job Ready
+9.3,9.33,8.68,8.57,9.54,Highly Job Ready
+7.76,6.96,8.61,6.78,8.19,Job Ready
+6.85,6.62,5.87,5.45,6.77,Needs Improvement
+8.03,7.01,5.97,7.83,8.26,Job Ready
+5.07,7.2,7.16,8.0,5.7,Job Ready
+7.98,7.92,9.14,7.64,9.72,Highly Job Ready
+9.53,9.57,8.49,9.14,8.66,Highly Job Ready
+9.59,8.43,9.21,9.24,8.2,Highly Job Ready
+6.75,5.16,5.15,6.14,7.49,Needs Improvement
+8.07,7.96,9.42,7.91,9.16,Highly Job Ready
+8.34,7.64,3.57,7.87,8.93,Job Ready
+2.11,4.38,1.02,4.55,2.08,Not Ready
+7.1,7.15,6.18,6.42,6.85,Job Ready
+2.21,2.18,3.6,2.96,4.23,Not Ready
+9.3,9.71,9.27,7.94,10.0,Highly Job Ready
+7.93,6.98,7.6,6.69,7.36,Job Ready
+8.56,8.99,8.92,9.19,9.19,Highly Job Ready
+2.77,3.42,5.44,5.91,3.41,Not Ready
+1.86,3.41,3.99,4.47,4.62,Not Ready
+9.28,9.9,8.91,8.8,9.14,Highly Job Ready
+3.82,4.19,4.29,1.57,4.57,Not Ready
+6.12,5.0,4.52,6.63,5.98,Needs Improvement
+8.83,7.41,7.04,8.45,7.91,Job Ready
+3.86,1.4,4.51,4.67,3.51,Not Ready
+7.1,7.47,8.08,6.33,7.64,Job Ready
+8.41,9.17,7.47,9.09,7.2,Highly Job Ready
+7.32,6.51,4.84,4.93,6.38,Needs Improvement
+5.75,3.65,6.0,4.92,6.26,Needs Improvement
+4.0,3.3,3.35,1.35,4.1,Not Ready
+7.34,6.32,8.91,4.67,5.15,Needs Improvement
+4.99,5.94,5.35,5.83,5.56,Needs Improvement
+9.38,7.73,7.76,9.73,8.87,Highly Job Ready
+4.16,3.52,4.89,1.21,2.85,Not Ready
+6.31,5.79,5.5,8.11,5.02,Needs Improvement
+8.22,9.17,8.4,8.63,9.37,Highly Job Ready
+6.9,6.79,5.35,5.64,6.51,Needs Improvement
+4.32,4.17,4.07,5.61,2.57,Not Ready
+9.47,7.6,8.55,8.49,9.42,Highly Job Ready
+8.1,9.14,8.33,9.06,9.25,Highly Job Ready
+8.62,7.61,8.98,8.06,7.1,Job Ready
+7.21,5.7,5.05,5.31,6.85,Needs Improvement
+2.9,1.13,2.69,2.75,3.57,Not Ready
+9.29,8.85,9.78,9.53,8.72,Highly Job Ready
+5.24,6.05,4.9,5.63,6.23,Needs Improvement
+4.32,3.8,2.94,3.53,3.59,Not Ready
+6.62,6.93,5.13,6.13,5.55,Needs Improvement
+4.8,6.52,6.13,6.84,6.18,Needs Improvement
+9.6,9.19,8.34,9.26,7.34,Highly Job Ready
+6.05,7.91,6.64,5.9,6.34,Job Ready
+2.66,4.56,4.37,3.92,2.51,Not Ready
+5.1,1.1,5.63,4.23,5.04,Not Ready
+8.06,8.93,9.25,7.64,9.25,Highly Job Ready
+2.53,4.17,2.48,4.62,2.44,Not Ready
+7.78,8.34,7.37,7.77,8.8,Job Ready
+7.66,8.7,9.6,7.98,10.0,Highly Job Ready
+4.21,5.48,2.43,3.06,2.73,Not Ready
+8.35,8.93,7.71,7.74,8.07,Highly Job Ready
+6.49,6.55,6.15,5.73,5.22,Needs Improvement
+8.47,8.07,6.41,7.3,8.17,Job Ready
+2.23,3.51,2.95,4.86,3.84,Not Ready
+3.18,3.6,3.9,4.5,5.04,Not Ready
+4.61,6.28,7.25,5.86,6.34,Needs Improvement
+5.65,5.52,7.93,3.67,5.43,Needs Improvement
+6.2,6.17,6.06,5.33,6.59,Needs Improvement
+5.24,5.81,7.16,6.33,4.17,Needs Improvement
+5.81,6.5,4.51,5.0,6.06,Needs Improvement
+7.63,8.99,8.16,8.02,8.73,Highly Job Ready
+6.95,7.53,7.07,7.67,7.59,Job Ready
+9.38,7.88,8.15,8.59,9.85,Highly Job Ready
+6.9,6.47,4.89,7.14,6.97,Needs Improvement
+2.81,4.22,2.7,4.81,3.74,Not Ready
+6.53,7.47,7.13,8.61,7.59,Job Ready
+7.07,7.12,7.42,6.7,7.67,Job Ready
+3.9,6.98,4.76,5.01,4.77,Not Ready
+5.36,4.38,4.02,3.55,3.36,Not Ready
+3.4,4.41,4.22,4.27,4.3,Not Ready
+5.51,3.49,2.47,3.52,3.92,Not Ready
+7.21,8.28,7.13,7.18,6.27,Job Ready
+5.42,4.9,5.58,8.14,7.12,Needs Improvement
+5.78,1.13,1.5,3.18,3.82,Not Ready
+2.77,4.54,3.35,3.79,3.61,Not Ready
+5.75,6.47,5.73,4.72,5.67,Needs Improvement
+4.82,3.24,3.59,2.98,0.75,Not Ready
+7.47,4.94,5.1,4.88,6.11,Needs Improvement
+7.22,7.57,7.14,6.75,7.74,Job Ready
+8.23,6.5,7.66,5.31,6.35,Job Ready
+8.07,8.91,8.66,8.37,8.49,Highly Job Ready
+5.83,6.09,6.33,5.67,5.69,Needs Improvement
+6.41,5.87,8.01,6.84,7.58,Job Ready
+8.97,9.67,8.03,8.58,9.23,Highly Job Ready
+9.29,9.66,8.68,8.13,8.79,Highly Job Ready
+6.29,6.26,6.47,4.84,5.38,Needs Improvement
+6.68,6.96,6.28,8.99,7.22,Job Ready
+3.83,3.55,4.19,3.79,2.13,Not Ready
+5.0,6.02,4.9,5.58,6.53,Needs Improvement
+8.71,9.31,8.69,9.08,7.82,Highly Job Ready
+4.44,3.85,2.87,3.88,3.77,Not Ready
+6.78,5.75,5.77,5.25,5.91,Needs Improvement
+9.09,9.19,8.79,8.62,8.1,Highly Job Ready
+6.02,6.95,7.34,6.54,6.07,Needs Improvement
+8.16,8.21,7.85,6.06,6.58,Job Ready
+6.69,6.63,8.32,8.05,7.81,Job Ready
+5.28,3.87,3.84,3.7,3.8,Not Ready
+7.43,6.82,7.97,7.14,6.46,Job Ready
+8.47,6.96,7.12,8.21,5.76,Job Ready
+7.24,7.8,5.8,5.94,7.72,Job Ready
+5.54,4.53,3.0,2.63,3.84,Not Ready
+2.62,4.01,4.05,5.36,4.76,Not Ready
+3.69,5.1,1.18,2.08,2.74,Not Ready
+6.97,5.59,6.75,5.14,4.39,Needs Improvement
+6.16,6.62,6.48,6.36,5.71,Needs Improvement
+7.35,9.42,6.99,8.98,7.17,Job Ready
+3.39,4.72,5.78,2.21,4.25,Not Ready
+9.52,8.41,9.17,9.0,7.89,Highly Job Ready
+8.53,9.17,7.92,8.36,8.87,Highly Job Ready
+9.07,8.92,10.0,9.09,9.55,Highly Job Ready
+9.02,8.43,8.42,7.69,7.78,Highly Job Ready
+8.42,9.35,8.84,9.79,8.05,Highly Job Ready
+7.43,7.98,7.31,10.0,7.43,Job Ready
+1.55,1.53,4.11,3.79,4.0,Not Ready
+8.88,8.39,9.62,9.79,9.7,Highly Job Ready
+9.89,9.26,9.03,7.59,8.9,Highly Job Ready
+6.5,7.31,7.31,6.14,6.84,Job Ready
+8.68,7.23,7.34,8.45,7.86,Job Ready
+6.06,6.32,6.55,7.65,7.49,Job Ready
+8.22,6.65,7.22,6.25,8.62,Job Ready
+8.73,9.76,8.82,8.0,8.02,Highly Job Ready
+6.07,6.36,5.86,5.16,5.55,Needs Improvement
+1.38,4.68,5.2,4.54,2.79,Not Ready
+2.89,4.31,4.4,4.12,2.18,Not Ready
+2.63,4.16,4.76,6.1,7.15,Not Ready
+7.14,7.59,6.93,7.51,7.47,Job Ready
+5.65,7.09,7.19,5.02,5.76,Needs Improvement
+8.11,8.71,8.93,8.47,10.0,Highly Job Ready
+4.24,2.92,2.52,5.17,4.1,Not Ready
+4.45,5.02,5.88,4.68,5.69,Needs Improvement
+3.88,4.43,4.83,1.5,1.87,Not Ready
+5.75,7.08,7.51,6.23,5.44,Needs Improvement
+6.12,5.98,6.45,6.32,6.03,Needs Improvement
+5.1,3.67,2.83,2.85,4.55,Not Ready
+5.69,7.23,6.72,5.5,5.8,Needs Improvement
+7.42,10.0,8.2,7.58,6.56,Job Ready
+2.07,2.62,3.18,5.21,3.06,Not Ready
+3.05,1.33,3.61,2.58,3.19,Not Ready
+8.51,8.74,7.99,8.69,7.83,Highly Job Ready
+3.38,2.72,3.28,4.32,2.0,Not Ready
+2.91,3.14,4.16,3.23,4.83,Not Ready
+7.83,7.67,8.3,5.8,8.31,Job Ready
+5.56,4.96,3.5,4.66,6.02,Not Ready
+3.73,2.57,4.32,5.46,3.71,Not Ready
+8.13,8.97,7.92,8.5,8.28,Highly Job Ready
+8.84,7.0,7.07,8.52,7.86,Job Ready
+5.04,4.85,4.81,5.21,4.82,Needs Improvement
+8.45,7.74,9.38,8.33,9.51,Highly Job Ready
+9.19,8.63,8.69,7.7,8.09,Highly Job Ready
+7.25,7.38,9.97,10.0,8.86,Highly Job Ready
+5.15,5.79,6.68,5.07,7.37,Needs Improvement
+2.43,3.38,3.51,2.07,2.67,Not Ready
+7.16,5.88,4.22,4.05,6.04,Needs Improvement
+9.09,10.0,9.01,7.95,8.67,Highly Job Ready
+5.91,5.42,5.54,5.78,5.18,Needs Improvement
+8.97,9.03,8.67,8.34,8.58,Highly Job Ready
+5.26,5.2,6.8,6.16,3.86,Needs Improvement
+7.32,6.63,7.38,6.48,5.89,Job Ready
+7.94,7.56,7.24,6.77,7.36,Job Ready
+8.21,7.94,8.21,7.82,7.48,Job Ready
+5.79,2.04,4.79,3.42,3.73,Not Ready
+8.96,7.25,6.85,6.52,8.13,Job Ready
+4.16,2.84,1.97,1.42,2.52,Not Ready
+5.82,5.77,4.01,5.42,5.85,Needs Improvement
+5.16,3.43,3.57,3.23,3.13,Not Ready
+7.73,8.44,6.27,7.19,7.47,Job Ready
+3.43,3.42,3.63,3.15,3.29,Not Ready
+6.95,5.72,7.89,8.79,8.26,Job Ready
+7.92,8.12,8.53,7.78,7.27,Job Ready
+6.37,5.99,6.01,5.73,6.41,Needs Improvement
+9.29,8.69,8.04,10.0,8.79,Highly Job Ready
+4.24,4.44,4.14,6.14,3.7,Not Ready
+4.85,2.27,3.84,3.24,3.42,Not Ready
+3.19,3.33,5.37,2.6,1.03,Not Ready
+4.19,4.16,4.27,4.51,1.38,Not Ready
+3.53,3.49,4.07,3.16,4.34,Not Ready
+5.45,4.94,5.64,7.55,4.6,Needs Improvement
+1.17,4.15,3.88,4.28,5.66,Not Ready
+7.9,8.01,8.81,9.58,8.41,Highly Job Ready
+8.16,9.5,8.52,8.78,9.17,Highly Job Ready
+5.13,5.45,4.41,5.37,1.64,Not Ready
+3.25,4.71,5.52,3.27,3.31,Not Ready
+4.5,5.35,3.76,6.03,5.32,Needs Improvement
+6.11,5.56,5.46,4.5,5.03,Needs Improvement
+1.85,3.78,2.76,3.41,3.71,Not Ready
+3.59,4.03,4.74,3.35,4.4,Not Ready
+7.8,9.22,8.63,9.1,8.95,Highly Job Ready
+8.47,8.65,7.23,8.6,8.86,Highly Job Ready
+5.63,6.18,3.08,6.09,5.69,Needs Improvement
+9.53,8.78,8.0,8.42,7.62,Highly Job Ready
+5.9,4.16,5.75,6.07,6.72,Needs Improvement
+3.83,3.84,3.66,5.2,0.73,Not Ready
+5.27,2.65,5.74,3.19,5.0,Not Ready
+4.36,2.56,2.32,5.62,2.74,Not Ready
+7.11,9.22,8.44,9.09,8.79,Highly Job Ready
+5.38,4.3,4.98,7.02,5.87,Needs Improvement
+7.85,6.84,6.41,7.1,8.24,Job Ready
+3.6,2.9,4.29,2.82,4.57,Not Ready
+8.88,7.51,9.63,9.07,8.02,Highly Job Ready
+6.05,4.65,6.21,8.3,7.08,Needs Improvement
+7.2,7.93,8.7,8.13,5.47,Job Ready
+2.0,3.46,3.91,3.7,4.71,Not Ready
+2.82,2.56,3.46,2.4,4.19,Not Ready
+3.81,5.33,4.79,4.77,4.44,Not Ready
+7.71,7.46,9.47,8.68,7.96,Highly Job Ready
+8.43,5.73,7.03,6.28,8.75,Job Ready
+6.61,7.27,6.03,5.52,6.52,Needs Improvement
+8.13,8.57,9.39,8.72,8.48,Highly Job Ready
+8.95,8.58,9.34,7.98,8.31,Highly Job Ready
+9.61,8.7,8.01,9.67,8.77,Highly Job Ready
+6.05,5.51,5.3,5.57,6.89,Needs Improvement
+7.59,7.12,6.14,5.78,6.6,Needs Improvement
+2.33,3.91,2.39,1.29,3.36,Not Ready
+1.96,2.92,3.97,4.22,4.28,Not Ready
+8.59,8.38,7.83,9.81,9.07,Highly Job Ready
+5.94,4.34,4.56,6.92,3.55,Not Ready
+6.31,6.35,7.95,7.51,7.82,Job Ready
+6.1,2.45,2.84,4.07,5.65,Not Ready
+9.14,9.0,9.15,8.93,9.35,Highly Job Ready
+4.58,5.83,5.53,6.09,5.92,Needs Improvement
+3.88,3.33,1.72,3.6,2.01,Not Ready
+7.36,8.31,8.26,6.94,7.77,Job Ready
+9.62,9.5,8.69,7.41,8.7,Highly Job Ready
+4.2,3.33,3.47,4.01,4.51,Not Ready
+2.76,4.87,4.24,3.62,3.75,Not Ready
+7.29,6.27,7.16,6.5,7.06,Job Ready
+8.75,9.56,8.74,7.79,9.78,Highly Job Ready
+5.21,2.87,2.2,4.88,4.37,Not Ready
+6.41,7.75,5.87,5.74,6.09,Needs Improvement
+8.68,9.36,10.0,9.07,8.32,Highly Job Ready
+8.5,9.27,8.17,8.03,10.0,Highly Job Ready
+4.15,2.6,4.66,4.88,1.56,Not Ready
+7.95,6.56,6.89,7.3,7.4,Job Ready
+6.5,6.86,6.26,7.45,7.66,Job Ready
+7.41,7.62,7.81,6.28,7.24,Job Ready
+7.18,7.44,8.06,6.05,7.93,Job Ready
+2.1,1.12,3.02,4.66,3.47,Not Ready
+7.82,7.44,8.35,7.22,7.33,Job Ready
+6.01,6.11,7.58,5.16,5.73,Needs Improvement
+8.77,9.23,9.34,8.87,9.42,Highly Job Ready
+8.04,5.95,6.84,9.04,6.77,Job Ready
+6.36,5.1,4.51,5.47,5.89,Needs Improvement
+8.26,8.86,8.01,8.83,8.71,Highly Job Ready
+8.22,6.49,7.32,6.13,7.15,Job Ready
+8.46,9.35,9.5,8.46,8.32,Highly Job Ready
+6.57,6.94,7.75,6.35,7.21,Job Ready
+3.82,2.89,3.95,3.72,2.27,Not Ready
+8.95,8.94,9.23,8.96,8.32,Highly Job Ready
+8.16,6.94,6.37,7.26,7.4,Job Ready
+6.63,8.77,6.17,8.67,6.44,Job Ready
+2.68,2.78,5.34,3.58,5.41,Not Ready
+7.68,5.84,5.86,5.45,6.85,Needs Improvement
+8.23,8.08,7.62,8.38,5.31,Job Ready
+6.77,5.07,6.13,5.73,4.8,Needs Improvement
+5.15,4.3,5.81,4.3,4.75,Not Ready
+6.08,6.86,5.36,6.62,5.16,Needs Improvement
+6.76,8.89,7.26,8.8,6.11,Job Ready
+3.89,5.1,3.38,4.2,2.66,Not Ready
+5.48,4.12,4.68,2.49,2.51,Not Ready
+7.3,6.17,7.92,7.25,8.29,Job Ready
+3.98,3.56,4.58,3.37,4.07,Not Ready
+8.35,6.17,7.78,8.18,7.14,Job Ready
+8.04,4.64,7.63,9.48,6.02,Job Ready
+8.86,8.27,8.5,9.21,8.14,Highly Job Ready
+7.46,7.62,6.76,6.76,8.34,Job Ready
+7.59,8.86,8.28,8.68,7.7,Highly Job Ready
+7.63,6.61,9.06,6.81,8.62,Job Ready
+4.05,4.8,4.06,4.58,3.88,Not Ready
+3.09,1.98,2.94,3.74,5.14,Not Ready
+5.97,6.13,5.65,6.18,5.55,Needs Improvement
+3.83,3.11,5.66,4.22,3.55,Not Ready
+7.16,5.67,6.51,5.09,5.64,Needs Improvement
+1.73,2.94,2.75,2.8,6.1,Not Ready
+6.8,6.06,4.04,4.88,6.34,Needs Improvement
+4.75,5.76,5.86,6.6,7.55,Needs Improvement
+7.56,7.51,8.8,8.86,9.06,Highly Job Ready
+7.54,6.76,7.36,6.89,8.67,Job Ready
+3.24,2.78,0.62,3.3,4.22,Not Ready
+8.31,7.6,7.1,7.85,7.31,Job Ready
+9.7,9.59,9.55,9.1,8.57,Highly Job Ready
+6.8,7.06,7.29,7.71,8.52,Job Ready
+4.16,2.85,6.5,5.71,6.88,Needs Improvement
+6.67,7.25,6.14,6.66,5.51,Needs Improvement
+5.05,5.14,5.64,4.79,4.63,Needs Improvement
+8.48,8.65,8.7,9.64,10.0,Highly Job Ready
+3.86,6.87,5.72,5.34,5.27,Needs Improvement
+6.13,5.58,7.62,4.94,5.8,Needs Improvement
+6.71,6.27,5.94,6.17,4.98,Needs Improvement
+7.76,6.45,6.09,7.14,7.65,Job Ready
+6.83,6.5,6.05,5.89,5.57,Needs Improvement
+5.3,8.76,7.11,7.69,8.54,Job Ready
+5.85,7.1,7.98,6.98,7.11,Job Ready
+7.47,5.85,6.84,8.28,6.16,Job Ready
+6.56,6.75,7.72,6.77,5.5,Job Ready
+4.55,2.55,5.42,4.98,4.13,Not Ready
+5.53,5.57,6.26,4.77,4.25,Needs Improvement
+8.8,9.0,7.7,8.68,8.6,Highly Job Ready
+5.19,5.08,1.97,4.15,4.97,Not Ready
+5.1,3.89,4.83,6.94,6.18,Needs Improvement
+5.57,5.5,5.18,6.01,6.18,Needs Improvement
+7.67,4.81,6.38,5.15,5.88,Needs Improvement
+7.14,9.1,8.48,5.82,6.73,Job Ready
+5.49,5.61,7.74,4.13,5.58,Needs Improvement
+9.29,8.63,8.69,9.01,8.26,Highly Job Ready
+6.69,8.45,8.53,7.94,6.47,Job Ready
+8.36,9.66,9.34,8.63,9.69,Highly Job Ready
+5.31,6.36,7.95,5.98,7.02,Job Ready
+8.8,8.7,9.18,8.15,7.96,Highly Job Ready
+6.82,7.71,7.03,6.75,7.34,Job Ready
+9.19,8.29,8.04,8.81,9.16,Highly Job Ready
+7.41,9.72,9.04,8.78,7.38,Highly Job Ready
+7.33,8.02,5.65,6.98,8.16,Job Ready
+6.49,5.96,4.48,5.62,4.38,Needs Improvement
+3.96,4.67,4.06,4.41,2.99,Not Ready
+8.32,8.32,6.42,7.71,6.78,Job Ready
+5.59,5.65,5.65,7.15,4.64,Needs Improvement
+8.56,8.12,6.34,8.36,7.08,Job Ready
+3.23,5.21,5.3,4.83,5.96,Needs Improvement
+8.44,8.08,8.53,8.82,8.95,Highly Job Ready
+3.26,4.1,3.86,3.46,3.68,Not Ready
+1.84,1.94,4.35,3.2,0.85,Not Ready
+7.06,8.27,7.81,7.32,6.45,Job Ready
+6.64,7.04,6.56,7.56,5.05,Needs Improvement
+8.99,8.56,8.95,9.58,8.76,Highly Job Ready
+5.22,6.87,6.73,5.13,5.1,Needs Improvement
+6.38,6.17,7.98,7.55,7.37,Job Ready
+5.6,7.49,5.6,4.09,7.6,Needs Improvement
+9.74,9.75,7.58,9.16,8.72,Highly Job Ready
+4.85,2.23,3.58,2.86,3.93,Not Ready
+1.82,3.34,2.81,5.29,2.25,Not Ready
+7.45,6.09,7.02,7.23,6.87,Job Ready
+6.08,5.09,7.5,6.64,5.16,Needs Improvement
+5.66,9.08,6.07,5.44,7.15,Needs Improvement
+9.06,8.97,8.88,9.93,7.87,Highly Job Ready
+0.99,4.38,3.0,3.85,3.7,Not Ready
+8.47,7.21,5.49,7.35,7.47,Job Ready
+8.29,8.72,7.34,8.86,7.05,Job Ready
+9.28,9.17,7.88,8.07,7.15,Highly Job Ready
+5.9,4.76,6.11,7.33,5.33,Needs Improvement
+2.67,2.14,3.73,3.9,3.0,Not Ready
+8.04,5.75,6.02,6.67,7.19,Job Ready
+5.78,3.59,3.36,5.48,2.53,Not Ready
+7.39,6.48,4.67,6.27,6.61,Needs Improvement
+3.65,4.2,6.04,6.19,3.88,Not Ready
+8.69,8.74,8.82,9.54,8.31,Highly Job Ready
+7.72,7.38,6.75,8.03,5.43,Job Ready
+3.71,4.36,5.67,5.35,4.54,Needs Improvement
+7.72,6.91,6.27,8.77,8.61,Job Ready
+9.14,8.24,8.43,8.26,8.22,Highly Job Ready
+7.71,7.99,8.56,7.62,8.09,Job Ready
+7.57,7.4,7.45,8.41,6.79,Job Ready
+8.92,9.45,7.5,8.48,7.58,Highly Job Ready
+9.09,9.28,7.61,7.64,8.75,Highly Job Ready
+6.34,3.66,1.28,3.17,5.22,Not Ready
+3.18,1.99,2.21,3.19,2.36,Not Ready
+5.74,6.04,7.86,4.94,8.34,Job Ready
+4.28,2.66,1.35,4.11,2.87,Not Ready
+6.13,7.96,7.9,8.84,6.72,Job Ready
+8.22,7.04,6.41,7.36,7.7,Job Ready
+9.75,9.1,8.31,8.9,8.26,Highly Job Ready
+6.87,5.49,4.8,6.11,5.49,Needs Improvement
+4.22,7.46,4.78,2.99,4.91,Not Ready
+7.41,8.33,6.79,7.95,7.34,Job Ready
+7.78,7.16,6.89,7.45,6.88,Job Ready
+6.33,7.66,8.26,7.23,7.13,Job Ready
+8.39,9.08,8.09,9.21,9.7,Highly Job Ready
+6.41,5.1,6.1,5.58,6.28,Needs Improvement
+3.9,4.95,3.1,1.68,1.6,Not Ready
+6.15,4.86,6.81,4.38,7.32,Needs Improvement
+7.98,8.92,6.7,6.46,6.69,Job Ready
+7.25,6.04,8.67,7.45,6.53,Job Ready
+3.2,4.12,7.15,5.42,5.09,Needs Improvement
+5.53,5.2,5.63,6.52,5.58,Needs Improvement
+6.76,4.51,6.82,5.41,4.82,Needs Improvement
+2.48,1.61,3.67,2.65,3.7,Not Ready
+5.81,6.18,5.39,6.1,5.64,Needs Improvement
+9.17,8.27,7.94,8.14,8.98,Highly Job Ready
+8.43,9.83,8.05,9.26,10.0,Highly Job Ready
+7.06,5.99,6.29,6.86,7.25,Job Ready
+5.72,8.39,7.0,7.75,7.83,Job Ready
+7.82,7.44,5.9,7.6,7.25,Job Ready
+9.22,8.12,9.24,9.1,9.78,Highly Job Ready
+3.37,5.38,6.33,5.94,6.06,Needs Improvement
+7.25,8.05,6.85,8.01,7.17,Job Ready
+8.68,9.02,6.61,7.75,7.77,Job Ready
+1.86,2.85,4.08,3.59,3.51,Not Ready
+8.43,9.47,9.76,8.34,8.33,Highly Job Ready
+5.64,6.84,6.35,6.5,5.17,Needs Improvement
+5.62,8.09,6.64,7.27,6.09,Job Ready
+7.45,9.38,7.45,7.32,6.21,Job Ready
+5.07,5.57,4.52,6.19,6.36,Needs Improvement
+5.8,5.06,6.65,6.57,5.75,Needs Improvement
+8.02,6.71,7.97,8.0,8.2,Job Ready
+8.05,6.97,7.04,8.47,7.0,Job Ready
+9.97,8.7,8.44,9.94,8.42,Highly Job Ready
+7.01,8.2,6.35,6.72,7.62,Job Ready
+6.9,6.53,4.45,5.14,4.85,Needs Improvement
+8.26,8.61,9.37,8.47,8.95,Highly Job Ready
+5.55,5.39,6.26,4.06,5.05,Needs Improvement
+6.26,6.3,6.34,3.96,4.51,Needs Improvement
+7.73,4.83,5.99,5.04,5.28,Needs Improvement
+4.28,2.55,4.53,4.84,3.95,Not Ready
+2.93,3.16,3.77,2.0,4.06,Not Ready
+6.48,3.56,1.5,5.64,3.27,Not Ready
+9.35,8.15,9.3,8.38,9.1,Highly Job Ready
+3.91,2.92,3.9,2.89,2.54,Not Ready
+4.69,1.62,4.05,5.61,4.36,Not Ready
+4.06,4.89,2.52,2.45,2.54,Not Ready
+7.62,7.93,6.83,6.93,7.76,Job Ready
+8.67,6.95,8.59,7.92,8.94,Highly Job Ready
+7.9,5.94,5.96,7.02,7.15,Job Ready
+6.39,8.45,6.68,7.7,6.59,Job Ready
+6.1,5.05,5.68,5.22,7.98,Needs Improvement
+2.59,3.42,5.3,4.47,5.79,Not Ready
+7.12,6.74,7.01,8.77,7.86,Job Ready
+6.13,6.12,5.45,5.23,3.72,Needs Improvement
+8.23,7.48,8.36,8.26,7.31,Job Ready
+8.6,10.0,7.8,9.42,8.24,Highly Job Ready
+3.03,5.5,3.18,4.33,1.65,Not Ready
+5.3,4.05,3.33,5.07,4.29,Not Ready
+7.63,8.12,7.46,8.22,9.78,Highly Job Ready
+5.32,6.42,5.63,5.93,6.83,Needs Improvement
+8.01,8.61,7.15,9.07,7.58,Highly Job Ready
+7.85,7.24,7.79,7.14,6.63,Job Ready
+5.47,6.01,7.31,5.64,6.92,Needs Improvement
+8.32,8.91,8.81,8.65,9.47,Highly Job Ready
+6.48,5.72,3.96,4.54,7.02,Needs Improvement
+5.38,3.24,6.38,3.8,4.27,Not Ready
+6.63,5.46,6.11,6.92,7.6,Needs Improvement
+5.22,3.82,5.07,4.12,4.33,Not Ready
+5.22,6.39,5.53,4.88,5.54,Needs Improvement
+5.5,5.09,5.59,6.09,6.73,Needs Improvement
+9.95,7.87,9.69,8.16,8.43,Highly Job Ready
+9.06,7.7,8.9,8.0,8.25,Highly Job Ready
+4.32,7.38,5.71,5.18,5.54,Needs Improvement
+2.14,5.78,4.11,4.24,3.44,Not Ready
+7.08,5.3,7.12,6.84,7.97,Job Ready
+5.72,6.76,5.51,5.6,4.87,Needs Improvement
+8.39,8.91,7.96,8.13,8.83,Highly Job Ready
+5.36,4.75,6.02,5.3,5.35,Needs Improvement
+2.13,3.72,4.1,2.77,4.02,Not Ready
+4.69,3.69,3.26,3.08,4.34,Not Ready
+9.19,9.54,10.0,8.5,8.53,Highly Job Ready
+6.62,6.66,6.4,5.1,5.82,Needs Improvement
+4.64,7.23,6.18,5.08,5.64,Needs Improvement
+8.37,8.34,9.11,8.78,8.54,Highly Job Ready
+2.1,5.03,3.42,5.08,4.24,Not Ready
+5.83,4.99,4.8,5.09,6.01,Needs Improvement
+7.95,8.79,8.1,8.54,9.4,Highly Job Ready
+8.87,9.5,8.76,8.84,9.13,Highly Job Ready
+6.91,6.68,6.22,6.68,6.51,Needs Improvement
+4.74,2.99,4.68,2.92,5.05,Not Ready
+6.97,6.54,7.92,6.3,7.74,Job Ready
+7.2,7.73,7.09,6.85,6.74,Job Ready
+3.07,3.48,5.52,2.8,4.91,Not Ready
+4.0,3.16,3.84,3.51,2.9,Not Ready
+3.55,3.56,4.25,5.41,4.01,Not Ready
+7.63,7.64,7.56,8.73,8.24,Job Ready
+7.41,6.53,7.96,6.07,8.36,Job Ready
+7.83,10.0,9.05,8.59,9.42,Highly Job Ready
+4.3,6.47,7.64,6.49,7.19,Needs Improvement
+9.72,8.83,9.51,8.35,9.71,Highly Job Ready
+9.06,8.36,8.69,10.0,8.96,Highly Job Ready
+5.49,5.4,6.73,5.29,5.76,Needs Improvement
+6.73,4.15,6.86,7.24,5.45,Needs Improvement
+3.66,4.95,5.02,4.98,3.84,Not Ready
+6.29,6.04,5.31,6.52,6.17,Needs Improvement
+9.26,8.53,9.14,8.27,9.29,Highly Job Ready
+4.09,2.27,3.77,6.1,4.75,Not Ready
+1.94,4.94,4.22,2.97,3.48,Not Ready
+8.89,10.0,8.17,8.33,8.79,Highly Job Ready
+8.1,7.36,6.3,6.79,7.11,Job Ready
+6.16,5.02,4.88,7.0,7.1,Needs Improvement
+6.14,8.55,6.64,8.56,7.75,Job Ready
+7.33,7.65,7.36,8.02,6.72,Job Ready
+4.49,5.72,6.08,7.56,5.88,Needs Improvement
+9.23,8.79,8.98,8.7,8.64,Highly Job Ready
+3.31,5.01,5.95,5.71,6.18,Needs Improvement
+7.31,8.03,7.22,8.84,7.17,Job Ready
+6.47,8.17,6.02,8.2,7.16,Job Ready
+8.44,8.74,6.43,6.89,6.42,Job Ready
+8.17,7.73,8.97,8.47,9.99,Highly Job Ready
+4.95,4.86,5.61,6.59,4.54,Needs Improvement
+4.3,4.07,3.12,2.14,3.88,Not Ready
+4.73,3.91,1.0,2.67,4.59,Not Ready
+9.06,8.56,6.02,6.84,7.66,Job Ready
+7.29,5.82,7.69,6.92,8.37,Job Ready
+9.31,9.25,8.3,8.21,9.23,Highly Job Ready
+2.5,3.23,3.96,1.13,4.07,Not Ready
+4.49,4.18,2.87,4.58,2.94,Not Ready
+5.5,5.09,3.35,2.78,4.71,Not Ready
+3.33,2.19,2.02,4.55,3.48,Not Ready
+7.34,6.14,6.24,6.55,4.61,Needs Improvement
+7.28,6.4,5.53,7.18,8.53,Job Ready
+8.11,8.94,8.8,8.25,9.03,Highly Job Ready
+7.28,7.07,6.97,7.36,7.33,Job Ready
+9.39,7.74,8.28,8.8,9.09,Highly Job Ready
+3.27,3.46,6.03,5.07,2.69,Not Ready
+7.3,6.6,7.62,5.76,5.49,Job Ready
+6.82,7.55,8.14,6.6,7.3,Job Ready
+7.77,7.16,6.4,7.18,6.47,Job Ready
+9.4,7.52,8.64,8.49,9.42,Highly Job Ready
+5.98,7.85,7.88,8.2,6.93,Job Ready
+5.33,6.64,6.73,7.04,6.63,Needs Improvement
+8.68,8.55,8.73,8.14,7.6,Highly Job Ready
+6.36,5.99,4.17,7.61,4.43,Needs Improvement
+1.75,3.9,3.16,2.33,5.73,Not Ready
+7.6,6.79,7.8,7.91,6.65,Job Ready
+8.31,8.26,8.85,8.67,8.71,Highly Job Ready
+9.39,9.32,9.0,9.27,9.69,Highly Job Ready
+5.75,7.04,3.93,5.75,5.76,Needs Improvement
+5.27,4.46,6.77,5.29,5.41,Needs Improvement
+5.51,6.22,5.74,5.81,6.42,Needs Improvement
+6.86,6.56,7.43,7.72,8.7,Job Ready
+6.56,7.26,5.51,6.84,7.09,Job Ready
+9.15,8.66,8.95,8.3,9.36,Highly Job Ready
+8.63,6.69,7.1,6.38,8.14,Job Ready
+2.7,2.67,4.12,4.94,3.65,Not Ready
+6.44,6.33,5.56,6.34,5.19,Needs Improvement
+7.49,8.16,7.67,7.44,6.62,Job Ready
+7.57,7.14,6.69,7.55,7.02,Job Ready
+5.51,5.5,6.25,5.0,6.91,Needs Improvement
+6.14,5.84,7.06,7.4,6.88,Needs Improvement
+6.12,4.97,5.21,4.93,4.67,Needs Improvement
+9.28,9.52,9.44,9.82,8.69,Highly Job Ready
+9.49,7.73,9.68,9.68,8.04,Highly Job Ready
+9.85,8.66,9.77,9.22,8.1,Highly Job Ready
+7.63,7.58,8.25,8.28,6.56,Job Ready
+5.11,8.06,5.74,5.41,5.82,Needs Improvement
+1.03,2.47,3.46,2.57,4.62,Not Ready
+5.75,4.95,5.1,5.06,6.3,Needs Improvement
+9.49,8.47,8.13,9.13,8.62,Highly Job Ready
+8.28,5.95,7.33,6.38,7.73,Job Ready
+5.42,7.18,6.16,5.0,5.15,Needs Improvement
+3.31,3.2,4.73,4.08,1.76,Not Ready
+7.46,6.53,5.27,7.04,5.1,Needs Improvement
+9.85,8.72,9.22,10.0,9.06,Highly Job Ready
+4.13,6.62,5.97,6.4,6.16,Needs Improvement
+1.46,3.84,2.51,3.36,4.56,Not Ready
+2.88,4.29,4.3,3.19,2.61,Not Ready
+4.72,6.71,3.8,5.07,5.42,Needs Improvement
+7.05,6.16,6.56,4.91,4.76,Needs Improvement
+6.33,6.33,5.19,6.32,5.03,Needs Improvement
+7.55,4.67,7.25,6.77,6.35,Needs Improvement
+2.12,3.12,4.16,5.19,2.96,Not Ready
+7.71,6.8,7.42,6.07,8.22,Job Ready
+9.36,8.24,8.63,9.42,9.77,Highly Job Ready
+7.76,5.88,3.78,6.38,4.94,Needs Improvement
+7.65,6.1,6.25,5.14,6.49,Needs Improvement
+4.76,6.2,7.38,6.1,6.33,Needs Improvement
+8.16,8.14,6.58,8.15,7.26,Job Ready
+9.85,8.76,8.86,9.53,8.68,Highly Job Ready
+3.59,3.02,5.21,3.62,3.31,Not Ready
+6.94,6.51,6.87,6.29,8.05,Job Ready
+8.59,8.71,6.51,8.84,8.81,Highly Job Ready
+5.91,3.57,4.23,2.09,5.17,Not Ready
+9.45,9.17,9.06,7.83,9.18,Highly Job Ready
+8.86,8.68,8.1,9.07,9.11,Highly Job Ready
+3.82,3.81,3.69,3.05,2.09,Not Ready
+7.96,6.22,6.1,8.72,7.6,Job Ready
+8.27,6.24,7.08,6.51,7.07,Job Ready
+6.17,6.18,5.45,5.11,7.82,Needs Improvement
+9.64,9.42,7.92,9.36,9.13,Highly Job Ready
+2.34,0.64,3.53,3.58,3.31,Not Ready
+8.3,5.62,5.13,6.96,6.13,Job Ready
+10.0,8.66,9.19,8.58,8.57,Highly Job Ready
+3.07,2.46,3.99,4.64,1.97,Not Ready
+4.87,5.87,4.39,3.37,2.77,Not Ready
+7.95,8.26,7.8,7.86,7.74,Job Ready
+7.6,7.85,7.91,6.32,6.48,Job Ready
+4.05,5.16,4.78,4.0,5.91,Needs Improvement
+3.38,4.19,5.79,2.67,3.52,Not Ready
+8.89,8.18,8.42,9.11,9.72,Highly Job Ready
+6.49,6.93,5.18,5.68,5.64,Needs Improvement
+6.09,4.72,4.83,5.71,6.28,Needs Improvement
+7.44,7.19,6.42,7.27,8.14,Job Ready
+7.23,7.64,6.9,6.58,8.17,Job Ready
+6.36,7.48,7.47,6.61,7.15,Job Ready
+4.55,4.51,3.76,4.03,2.44,Not Ready
+6.95,4.41,5.19,5.3,5.59,Needs Improvement
+6.18,3.19,5.76,5.5,5.02,Needs Improvement
+4.25,4.15,3.69,3.19,6.35,Not Ready
+5.44,3.81,6.6,7.16,7.22,Needs Improvement
+3.74,5.1,5.25,2.16,3.44,Not Ready
+2.14,2.28,2.65,4.26,2.76,Not Ready
+5.81,5.69,6.81,4.87,8.47,Needs Improvement
+4.0,5.62,3.98,3.66,4.13,Not Ready
+5.55,5.64,7.01,5.09,5.89,Needs Improvement
+8.68,9.27,8.0,9.26,9.18,Highly Job Ready
+5.22,7.11,5.99,4.84,6.09,Needs Improvement
+7.8,7.48,8.76,8.06,8.77,Highly Job Ready
+4.65,3.27,4.95,2.66,4.14,Not Ready
+6.51,5.84,5.75,6.33,5.69,Needs Improvement
+5.93,4.13,5.57,7.02,3.99,Needs Improvement
+5.35,7.27,5.44,6.49,4.4,Needs Improvement
+8.43,8.56,9.1,9.22,8.65,Highly Job Ready
+6.46,6.42,7.72,7.15,7.28,Job Ready
+6.05,7.49,8.67,7.47,6.12,Job Ready
+4.4,4.64,3.14,4.44,4.45,Not Ready
+8.34,8.18,7.19,8.04,8.04,Job Ready
+5.3,7.68,8.28,7.61,7.8,Job Ready
+6.11,5.5,4.75,6.43,5.81,Needs Improvement
+7.93,8.43,9.57,8.86,8.32,Highly Job Ready
+6.79,3.37,3.27,4.68,4.74,Not Ready
+5.79,5.36,4.09,5.35,3.81,Not Ready
+4.54,7.68,5.23,5.26,5.74,Needs Improvement
+5.35,5.04,6.13,6.9,5.63,Needs Improvement
+7.35,7.83,7.1,6.91,7.16,Job Ready
+6.33,5.76,6.19,5.11,6.15,Needs Improvement
+6.16,6.16,6.3,7.58,6.55,Needs Improvement
+9.36,7.98,9.05,8.87,9.05,Highly Job Ready
+4.81,5.26,5.21,6.55,6.73,Needs Improvement
+8.3,8.39,8.8,8.39,8.44,Highly Job Ready
+4.36,3.26,3.81,4.35,4.31,Not Ready
+3.47,3.58,2.52,4.47,4.4,Not Ready
+8.08,7.21,7.02,6.14,7.81,Job Ready
+7.08,8.29,6.22,6.43,7.91,Job Ready
+8.65,8.64,7.68,9.15,8.35,Highly Job Ready
+4.66,2.81,4.81,5.35,5.22,Needs Improvement
+3.82,5.87,5.82,5.97,7.8,Needs Improvement
+8.51,7.94,8.25,8.86,8.72,Highly Job Ready
+1.82,4.32,4.35,2.46,2.98,Not Ready
+9.17,7.51,6.96,6.78,5.73,Job Ready
+5.17,6.4,6.04,5.34,5.18,Needs Improvement
+8.96,8.05,9.2,7.73,7.61,Highly Job Ready
+9.06,8.66,8.56,8.68,9.27,Highly Job Ready
+5.71,6.34,4.63,6.14,6.84,Needs Improvement
+4.25,3.92,3.63,5.63,3.08,Not Ready
+4.37,1.38,3.75,6.1,3.95,Not Ready
+5.89,2.79,4.05,3.76,3.68,Not Ready
+9.06,9.34,8.44,8.76,9.56,Highly Job Ready
+8.3,8.49,10.0,8.86,9.99,Highly Job Ready
+8.29,8.22,8.54,9.45,8.94,Highly Job Ready
+9.93,9.21,10.0,8.29,7.65,Highly Job Ready
+6.74,5.88,7.14,6.09,6.39,Needs Improvement
+10.0,10.0,8.19,9.17,9.37,Highly Job Ready
+6.73,6.29,8.52,7.73,7.27,Job Ready
+3.49,4.71,2.04,3.21,4.59,Not Ready
+4.09,3.85,3.57,2.56,3.63,Not Ready
+7.05,7.29,6.74,8.07,6.71,Job Ready
+7.3,6.96,6.82,6.83,6.11,Job Ready
+4.33,3.04,3.38,3.36,2.42,Not Ready
+7.97,8.67,8.39,8.54,8.31,Highly Job Ready
+6.87,7.42,8.94,7.02,7.55,Job Ready
+8.57,7.72,9.1,8.3,8.94,Highly Job Ready
+4.69,4.56,7.44,5.36,5.78,Needs Improvement
+9.42,8.4,9.57,8.48,9.22,Highly Job Ready
+5.59,6.06,5.33,6.33,5.25,Needs Improvement
+7.81,9.61,9.66,9.36,8.35,Highly Job Ready
+7.09,8.21,9.27,6.49,6.43,Job Ready
+7.96,8.88,9.4,8.28,8.41,Highly Job Ready
+7.09,9.05,9.08,9.11,8.46,Highly Job Ready
+4.96,6.13,6.6,5.37,5.4,Needs Improvement
+7.63,8.65,7.78,9.79,7.81,Highly Job Ready
+2.82,6.36,4.94,4.92,3.83,Not Ready
+5.21,4.73,6.22,6.94,4.94,Needs Improvement
+8.27,8.66,7.96,8.17,9.22,Highly Job Ready
+3.49,5.84,3.69,3.52,1.39,Not Ready
+3.35,2.22,4.53,3.54,2.11,Not Ready
+9.6,9.1,8.03,8.46,10.0,Highly Job Ready
+3.82,3.66,3.26,6.11,4.43,Not Ready
+9.98,9.53,8.02,8.94,7.58,Highly Job Ready
+6.59,5.58,6.82,7.61,7.42,Job Ready
+4.59,4.34,3.36,4.97,4.98,Not Ready
+5.57,4.01,2.39,2.23,5.7,Not Ready
+5.45,4.22,6.65,5.11,7.03,Needs Improvement
+7.63,7.34,7.07,7.61,7.04,Job Ready
+6.85,7.59,7.06,7.33,7.89,Job Ready
+2.68,3.6,3.0,5.53,4.66,Not Ready
+8.45,8.89,7.93,8.64,9.26,Highly Job Ready
+7.89,8.38,8.55,8.85,9.16,Highly Job Ready
+6.3,5.18,5.9,5.53,7.63,Needs Improvement
+10.0,7.87,9.64,8.9,8.47,Highly Job Ready
+6.81,4.56,5.6,6.77,5.4,Needs Improvement
+9.46,9.52,8.51,8.94,8.01,Highly Job Ready
+7.49,6.2,7.02,6.86,7.69,Job Ready
+8.26,7.32,6.92,8.26,6.46,Job Ready
+5.36,7.8,7.02,6.52,7.59,Job Ready
+8.77,9.97,9.23,8.53,8.96,Highly Job Ready
+8.6,8.15,8.6,9.26,9.06,Highly Job Ready
+8.36,8.53,9.68,7.94,7.44,Job Ready
+9.15,9.34,9.11,8.6,9.41,Highly Job Ready
+6.04,6.65,6.06,7.93,7.16,Needs Improvement
+9.55,9.18,9.55,9.81,8.3,Highly Job Ready
+2.83,2.55,4.2,4.24,5.28,Not Ready
+5.47,6.97,4.99,6.1,5.86,Needs Improvement
+7.75,6.71,7.09,7.28,5.95,Job Ready
+6.54,3.5,7.01,7.2,5.83,Needs Improvement
+9.28,8.87,7.72,9.46,8.74,Highly Job Ready
+5.44,5.53,6.38,4.25,7.32,Needs Improvement
+5.91,2.88,5.97,6.41,6.22,Needs Improvement
+5.24,4.53,4.65,4.53,4.19,Not Ready
+9.83,9.07,8.55,8.89,8.13,Highly Job Ready
+8.48,8.75,8.14,9.82,9.12,Highly Job Ready
+5.34,5.5,7.72,4.15,6.27,Needs Improvement
+6.87,5.9,7.63,7.5,8.02,Job Ready
+7.07,7.91,8.16,6.81,7.49,Job Ready
+8.6,9.41,8.68,9.47,9.08,Highly Job Ready
+4.2,4.57,3.01,4.83,5.67,Not Ready
+7.4,6.23,7.76,6.5,8.08,Job Ready
+6.04,5.97,6.98,7.23,6.56,Job Ready
+5.09,6.63,6.92,6.8,5.08,Needs Improvement
+7.51,8.13,8.43,9.32,9.64,Highly Job Ready
+7.09,7.29,6.91,8.18,7.7,Job Ready
+4.96,3.98,4.2,3.86,3.8,Not Ready
+5.11,2.74,4.78,4.54,4.31,Not Ready
+3.98,3.77,3.04,4.47,4.35,Not Ready
+7.71,9.35,8.0,8.66,9.22,Highly Job Ready
+3.8,4.93,3.16,4.73,4.58,Not Ready
+9.22,8.13,8.91,9.54,8.36,Highly Job Ready
+8.08,6.71,6.72,8.53,7.96,Job Ready
+9.1,8.61,10.0,9.61,9.65,Highly Job Ready
+4.65,4.42,3.03,4.07,3.93,Not Ready
+6.89,7.26,8.93,7.06,8.35,Job Ready
+8.95,7.8,8.13,7.49,8.69,Highly Job Ready
+6.65,6.61,8.14,8.31,8.59,Job Ready
+1.07,2.9,3.96,3.58,4.35,Not Ready
+3.67,2.84,4.56,4.55,4.48,Not Ready
+7.15,7.03,7.47,7.94,7.9,Job Ready
+6.0,5.76,6.21,6.02,5.86,Needs Improvement
+7.11,8.64,9.14,8.53,8.82,Highly Job Ready
+5.75,5.36,5.15,7.27,5.72,Needs Improvement
+8.71,9.92,8.4,9.3,9.12,Highly Job Ready
+8.74,7.87,8.06,7.97,9.65,Highly Job Ready
+6.51,5.17,5.65,5.02,4.61,Needs Improvement
+3.91,2.72,3.19,3.88,3.84,Not Ready
+8.04,8.56,8.59,8.4,9.4,Highly Job Ready
+2.44,4.73,3.02,4.26,4.45,Not Ready
+8.35,8.33,8.59,8.73,9.12,Highly Job Ready
+6.16,7.18,7.25,7.83,6.77,Job Ready
+6.85,6.39,8.16,6.48,6.71,Job Ready
+3.81,3.46,2.63,6.16,5.85,Not Ready
+5.61,2.65,3.39,4.35,6.71,Not Ready
+5.26,6.91,5.51,6.85,6.21,Needs Improvement
+8.55,8.35,8.96,9.09,9.08,Highly Job Ready
+8.13,9.07,8.42,7.81,10.0,Highly Job Ready
+6.17,5.43,4.26,5.91,6.83,Needs Improvement
+9.63,9.38,9.64,8.73,8.24,Highly Job Ready
+7.24,5.22,6.64,5.78,5.76,Needs Improvement
+3.88,4.46,2.68,4.65,4.74,Not Ready
+8.5,10.0,8.32,8.72,9.22,Highly Job Ready
+7.07,7.96,7.28,8.27,8.42,Job Ready
+4.31,3.87,4.43,3.58,4.12,Not Ready
+8.45,8.2,8.8,8.51,9.81,Highly Job Ready
+8.81,8.57,8.43,9.13,9.31,Highly Job Ready
+2.35,5.84,4.56,3.79,5.63,Not Ready
+5.99,3.28,5.48,6.42,5.57,Needs Improvement
+9.27,8.97,8.35,9.05,8.76,Highly Job Ready
+6.39,6.22,5.74,5.38,5.94,Needs Improvement
+7.29,6.2,8.61,7.36,7.05,Job Ready
+4.22,3.47,4.27,6.37,3.49,Not Ready
+7.58,7.04,7.86,7.29,6.99,Job Ready
+3.81,4.32,5.14,5.69,4.16,Not Ready
+5.72,7.68,7.86,5.79,8.26,Job Ready
+9.0,8.15,8.1,7.08,7.06,Job Ready
+7.0,5.69,4.95,5.33,5.99,Needs Improvement
+2.4,2.0,4.59,3.4,2.62,Not Ready
+5.33,5.61,4.59,6.18,4.1,Needs Improvement
+8.94,9.6,9.47,8.41,8.82,Highly Job Ready
+6.98,6.55,4.89,5.31,5.71,Needs Improvement
+4.53,2.19,4.18,3.45,3.24,Not Ready
+9.5,8.78,8.06,7.91,8.53,Highly Job Ready
+4.98,6.97,6.1,6.15,7.09,Needs Improvement
+5.94,4.49,3.59,4.46,2.18,Not Ready
+3.85,2.32,2.24,2.16,1.77,Not Ready
+8.23,7.94,6.72,8.75,8.27,Highly Job Ready
+3.28,3.03,4.3,4.09,2.18,Not Ready
+2.61,4.07,2.16,4.31,2.87,Not Ready
+6.76,7.04,7.76,6.61,7.94,Job Ready
+2.38,5.46,3.22,1.9,2.6,Not Ready
+6.57,8.68,7.32,7.45,6.89,Job Ready
+5.31,6.19,6.12,3.81,5.05,Needs Improvement
+3.17,2.51,2.44,3.9,4.18,Not Ready
+8.37,6.82,7.14,6.44,8.01,Job Ready
+8.98,9.08,8.89,8.47,8.8,Highly Job Ready
+9.41,8.61,8.68,8.78,9.52,Highly Job Ready
+8.43,9.01,10.0,9.59,9.0,Highly Job Ready
+8.25,9.37,8.45,9.23,7.94,Highly Job Ready
+7.41,6.89,8.7,7.21,7.43,Job Ready
+9.14,7.88,9.21,8.47,8.81,Highly Job Ready
+7.32,7.43,7.14,6.94,7.0,Job Ready
+2.54,4.98,1.59,5.1,3.74,Not Ready
+7.78,9.79,9.46,9.03,8.91,Highly Job Ready
+4.59,4.77,6.17,7.55,6.17,Needs Improvement
+7.86,9.19,8.83,8.53,9.63,Highly Job Ready
+5.21,5.62,4.37,4.92,5.23,Not Ready
+5.47,6.26,6.1,6.77,5.28,Needs Improvement
+2.3,3.95,3.44,3.78,2.82,Not Ready
+3.72,4.18,3.86,2.92,4.84,Not Ready
+4.65,4.89,5.53,6.03,7.17,Needs Improvement
+9.24,9.22,9.8,8.56,9.67,Highly Job Ready
+5.22,5.96,6.61,4.86,5.28,Needs Improvement
+8.03,8.15,9.06,9.76,8.9,Highly Job Ready
+8.95,7.75,9.07,9.15,8.72,Highly Job Ready
+10.0,8.31,8.79,8.05,7.96,Highly Job Ready
+7.74,8.8,7.74,8.97,8.07,Job Ready
+7.42,7.79,7.92,7.53,8.15,Job Ready
+9.5,8.71,8.35,9.4,10.0,Highly Job Ready
+6.74,7.41,7.53,6.98,8.07,Job Ready
+9.16,9.6,8.05,8.47,8.86,Highly Job Ready
+3.46,3.28,4.3,4.5,3.3,Not Ready
+8.97,7.84,9.35,8.8,8.45,Highly Job Ready
+6.85,8.91,6.98,6.56,6.46,Job Ready
+9.07,7.63,8.82,9.87,9.89,Highly Job Ready
+7.78,9.49,7.83,6.32,7.54,Job Ready
+8.92,8.45,8.43,9.21,7.24,Highly Job Ready
+8.14,8.67,7.67,8.82,8.67,Highly Job Ready
+7.74,8.93,10.0,7.96,8.82,Highly Job Ready
+7.64,6.35,7.93,6.74,6.27,Job Ready
+6.62,5.65,5.16,6.88,6.54,Needs Improvement
+8.95,8.76,9.57,8.56,9.45,Highly Job Ready
+6.21,8.35,6.49,7.36,6.57,Job Ready
+8.78,9.71,9.38,8.46,8.47,Highly Job Ready
+8.82,8.94,8.31,7.86,8.07,Highly Job Ready
+1.94,1.1,4.88,2.67,3.28,Not Ready
+6.86,4.99,6.05,6.05,6.26,Needs Improvement
+7.18,7.23,7.01,6.88,8.61,Job Ready
+7.31,7.79,8.07,6.65,7.32,Job Ready
+5.18,7.33,6.8,5.08,6.34,Needs Improvement
+7.84,6.8,7.88,9.12,5.91,Job Ready
+8.79,7.36,6.45,7.03,5.94,Job Ready
+4.28,6.37,6.43,6.28,4.97,Needs Improvement
+4.73,7.0,6.81,6.31,7.67,Needs Improvement
+5.75,6.32,6.33,6.44,5.19,Needs Improvement
+7.05,7.04,8.28,8.64,6.07,Job Ready
+6.06,6.54,6.69,7.12,6.65,Job Ready
+7.41,8.28,5.47,9.02,6.94,Job Ready
+8.27,7.27,6.89,8.34,8.62,Job Ready
+9.47,6.8,8.67,9.52,9.4,Highly Job Ready
+7.62,5.58,7.76,9.94,7.2,Job Ready
+8.12,7.19,7.4,4.74,6.97,Job Ready
+7.31,6.44,8.7,9.2,7.71,Job Ready
+9.6,7.37,9.69,8.71,7.58,Highly Job Ready
+9.1,9.11,7.22,10.0,9.14,Highly Job Ready
+7.74,9.06,7.33,7.08,6.31,Job Ready
+9.41,7.03,8.92,9.58,10.0,Highly Job Ready
+7.49,8.31,8.01,9.99,8.79,Highly Job Ready
+9.07,8.09,8.08,9.34,9.14,Highly Job Ready
+8.32,9.2,7.58,9.3,8.78,Highly Job Ready
+6.08,6.1,5.56,6.51,6.54,Needs Improvement
+5.24,4.93,5.74,6.38,4.42,Needs Improvement
+6.41,7.98,6.47,7.11,7.05,Job Ready
+8.61,7.9,9.87,10.0,8.11,Highly Job Ready
+7.23,5.17,6.28,6.81,6.17,Needs Improvement
+4.61,6.47,7.39,6.27,5.76,Needs Improvement
+6.09,6.29,5.93,5.42,5.48,Needs Improvement
+8.72,8.76,8.14,7.59,6.45,Job Ready
+8.52,7.44,7.09,5.78,5.92,Job Ready
+10.0,8.47,8.47,8.56,8.86,Highly Job Ready
+7.57,7.35,7.42,7.68,7.05,Job Ready
+5.15,5.15,7.26,6.0,5.28,Needs Improvement
+8.54,6.67,7.26,7.83,7.64,Job Ready
+6.61,4.74,6.59,6.93,6.0,Needs Improvement
+7.67,7.45,7.13,7.26,8.41,Job Ready
+8.57,8.32,8.65,8.05,9.11,Highly Job Ready
+4.29,5.08,4.18,6.4,8.46,Needs Improvement
+7.98,8.76,9.33,7.75,8.33,Highly Job Ready
+6.92,7.82,8.33,7.41,8.83,Job Ready
+1.66,3.48,5.58,3.3,3.92,Not Ready
+9.08,9.87,9.9,7.91,8.57,Highly Job Ready
+3.41,5.02,2.49,3.81,6.79,Not Ready
+6.55,8.67,8.19,7.18,7.33,Job Ready
+5.29,4.41,6.54,6.52,6.6,Needs Improvement
+6.13,7.09,7.39,6.87,7.54,Job Ready
+6.25,6.43,5.66,5.88,5.06,Needs Improvement
+5.75,6.38,5.29,4.9,8.67,Needs Improvement
+8.89,8.38,10.0,7.88,8.42,Highly Job Ready
+8.11,9.1,7.52,8.14,7.59,Highly Job Ready
+7.48,7.17,7.77,7.47,7.48,Job Ready
+8.15,5.21,5.55,5.25,6.0,Needs Improvement
+7.84,8.4,7.9,7.9,9.2,Highly Job Ready
+7.39,7.73,7.58,7.78,8.5,Job Ready
+5.17,4.03,3.22,4.36,3.19,Not Ready
+3.99,3.06,3.49,3.53,2.96,Not Ready
+4.31,6.01,6.02,7.42,5.17,Needs Improvement
+5.61,4.71,5.88,4.41,4.82,Needs Improvement
+3.47,4.03,2.92,2.87,2.24,Not Ready
+4.88,7.84,5.63,5.06,7.16,Needs Improvement
+8.61,8.19,9.55,6.68,8.51,Highly Job Ready
+5.91,8.5,6.64,8.17,6.77,Job Ready
+7.15,4.86,6.89,8.22,5.87,Job Ready
+8.66,9.04,8.75,7.79,10.0,Highly Job Ready
+5.84,5.74,6.47,4.83,6.77,Needs Improvement
+9.24,8.53,9.19,8.57,9.86,Highly Job Ready
+6.92,5.99,8.15,5.96,5.52,Needs Improvement
+8.46,10.0,9.07,9.15,9.94,Highly Job Ready
+5.82,6.32,5.79,6.73,5.36,Needs Improvement
+9.21,9.61,10.0,7.7,8.55,Highly Job Ready
+7.72,5.84,4.92,6.97,6.4,Needs Improvement
+5.86,5.91,6.7,5.93,6.97,Needs Improvement
+5.05,4.22,3.47,4.32,3.45,Not Ready
+5.99,6.14,4.51,4.33,4.96,Needs Improvement
+8.49,8.84,9.59,8.58,8.35,Highly Job Ready
+8.9,8.75,8.76,8.74,8.56,Highly Job Ready
+5.3,3.23,4.56,3.34,3.93,Not Ready
+5.23,7.42,6.01,6.56,5.92,Needs Improvement
+8.04,5.65,7.25,6.94,7.19,Job Ready
+6.0,7.63,6.45,8.07,7.55,Job Ready
+5.01,5.74,5.07,5.96,5.58,Needs Improvement
+4.28,4.5,7.5,5.2,6.1,Needs Improvement
+3.73,2.96,3.32,4.53,3.8,Not Ready
+4.7,4.11,2.98,2.29,4.76,Not Ready
+6.23,7.71,6.24,6.04,7.5,Job Ready
+4.19,5.42,3.9,4.54,1.44,Not Ready
+8.41,6.47,6.68,6.08,9.03,Job Ready
+4.01,4.91,4.11,3.15,4.6,Not Ready
+7.85,8.38,8.97,9.62,9.16,Highly Job Ready
+9.1,8.93,7.4,8.93,9.04,Highly Job Ready
+4.98,2.9,2.49,1.32,3.49,Not Ready
+3.04,4.21,2.2,5.45,3.63,Not Ready
+4.02,4.52,3.95,4.74,3.91,Not Ready
+8.98,10.0,9.1,9.25,8.53,Highly Job Ready
+2.62,4.84,2.42,3.47,3.13,Not Ready
+4.59,5.77,6.09,5.1,5.83,Needs Improvement
+8.75,8.54,9.57,8.46,7.8,Highly Job Ready
+8.91,7.7,7.79,8.05,7.96,Job Ready
+6.02,7.57,6.38,8.17,6.5,Job Ready
+7.84,6.43,7.45,5.28,6.81,Job Ready
+6.32,6.84,6.5,6.66,4.71,Needs Improvement
+9.35,7.78,6.79,8.94,7.0,Job Ready
+7.31,7.6,6.86,8.48,7.21,Job Ready
+5.28,7.14,5.72,5.99,6.92,Needs Improvement
+8.85,8.28,8.14,8.64,9.28,Highly Job Ready
+4.7,3.58,5.15,4.66,5.89,Not Ready
+7.72,8.51,9.48,9.82,8.3,Highly Job Ready
+2.33,2.5,2.74,4.37,3.96,Not Ready
+7.34,7.02,7.16,7.42,8.76,Job Ready
+7.89,6.0,6.74,6.59,7.32,Job Ready
+2.35,2.29,3.62,2.43,2.99,Not Ready
+3.13,2.02,4.32,3.28,2.56,Not Ready
+4.48,2.48,3.7,4.88,4.8,Not Ready
+5.1,5.74,5.97,7.28,5.51,Needs Improvement
+4.08,3.63,4.3,3.87,3.93,Not Ready
+3.9,5.08,6.73,5.2,5.01,Needs Improvement
+8.34,6.73,6.73,7.62,8.6,Job Ready
+5.97,7.02,4.78,4.92,4.7,Needs Improvement
+4.54,3.18,4.09,3.64,4.8,Not Ready
+9.79,9.1,8.55,8.06,10.0,Highly Job Ready
+8.17,5.39,5.26,4.11,7.13,Needs Improvement
+9.08,8.81,7.81,7.95,8.29,Highly Job Ready
+3.61,6.21,2.12,3.35,5.76,Not Ready
+9.3,8.43,8.03,8.68,9.71,Highly Job Ready
+6.46,6.76,7.38,7.11,7.9,Job Ready
+7.42,5.79,7.88,7.57,7.25,Job Ready
+7.61,8.8,10.0,8.35,9.36,Highly Job Ready
+6.07,7.72,7.02,7.16,8.19,Job Ready
+0.28,2.33,5.97,3.17,1.52,Not Ready
+7.97,9.59,8.17,8.8,9.42,Highly Job Ready
+5.02,3.32,5.34,5.42,5.32,Needs Improvement
+8.23,8.17,8.53,8.16,9.25,Highly Job Ready
+6.46,4.18,2.96,4.85,3.67,Not Ready
+5.21,5.94,6.33,6.87,5.12,Needs Improvement
+4.19,4.57,3.37,4.67,4.24,Not Ready
+5.06,3.65,2.37,3.43,4.05,Not Ready
+8.32,7.94,9.32,8.66,10.0,Highly Job Ready
+4.4,7.15,5.43,7.1,5.85,Needs Improvement
+5.09,3.69,2.52,5.17,4.52,Not Ready
+6.29,4.48,5.21,6.82,6.14,Needs Improvement
+9.41,7.39,8.44,8.76,8.95,Highly Job Ready
+8.3,8.01,8.27,8.05,8.53,Highly Job Ready
+9.87,8.84,8.93,7.49,8.41,Highly Job Ready
+5.61,6.01,6.58,5.95,7.34,Job Ready
+5.69,7.55,7.63,4.22,8.17,Needs Improvement
+7.67,8.1,5.46,7.23,7.65,Job Ready
+6.61,8.06,6.98,7.08,7.82,Job Ready
+8.56,7.71,8.47,7.52,7.37,Job Ready
+5.77,9.52,6.81,8.57,7.32,Job Ready
+8.63,7.95,8.55,10.0,9.31,Highly Job Ready
+7.76,8.81,8.29,7.53,9.93,Highly Job Ready
+7.88,7.84,6.61,8.02,7.16,Job Ready
+3.38,1.29,3.84,3.79,5.0,Not Ready
+3.05,4.31,3.28,2.39,2.33,Not Ready
+6.18,4.73,6.1,4.56,6.08,Needs Improvement
+6.26,6.19,5.5,6.55,5.76,Needs Improvement
+7.04,8.72,6.69,8.48,6.41,Job Ready
+6.25,7.21,6.67,7.62,6.16,Job Ready
+9.03,8.59,8.43,9.17,9.12,Highly Job Ready
+8.75,8.87,8.11,7.9,7.13,Job Ready
+3.98,5.04,2.83,4.18,3.77,Not Ready
+7.34,6.84,7.25,7.41,6.78,Job Ready
+5.19,7.41,4.8,6.21,5.5,Needs Improvement
+4.34,6.08,6.44,4.82,5.81,Needs Improvement
+7.84,7.05,5.04,4.7,8.38,Job Ready
+5.34,7.14,6.11,6.97,5.08,Needs Improvement
+3.02,2.98,2.79,6.42,4.14,Not Ready
+4.71,3.4,3.27,4.79,3.58,Not Ready
+2.35,3.83,4.98,1.25,4.2,Not Ready
+6.99,6.45,7.67,4.33,5.55,Needs Improvement
+5.64,3.76,2.46,3.02,2.88,Not Ready
+6.82,7.24,7.28,6.65,6.65,Job Ready
+4.26,5.6,2.5,3.36,2.93,Not Ready
+5.03,3.91,6.31,7.81,7.12,Needs Improvement
+3.37,5.29,3.39,4.65,2.73,Not Ready
+5.37,7.23,4.78,6.63,5.34,Needs Improvement
+8.77,8.37,9.36,9.58,7.88,Highly Job Ready
+8.17,8.54,8.54,8.42,7.89,Highly Job Ready
+8.32,7.8,7.25,8.24,9.46,Job Ready
+8.57,9.36,7.93,8.26,9.1,Highly Job Ready
+5.27,6.14,7.07,6.8,6.23,Needs Improvement
+5.74,7.62,6.14,8.37,7.33,Job Ready
+7.87,9.87,8.79,9.01,8.54,Highly Job Ready
+9.25,8.64,10.0,9.5,8.11,Highly Job Ready
+5.2,5.45,5.4,5.29,5.81,Needs Improvement
+9.9,8.28,9.93,10.0,9.13,Highly Job Ready
+4.28,7.13,5.48,5.9,4.58,Needs Improvement
+4.32,4.55,5.81,7.68,6.35,Needs Improvement
+3.39,4.19,0.43,4.24,0.0,Not Ready
+8.83,10.0,9.73,9.57,9.3,Highly Job Ready
+5.38,6.69,6.35,6.3,4.76,Needs Improvement
+5.76,6.75,6.83,5.58,6.36,Needs Improvement
+8.58,7.07,7.49,6.86,5.78,Job Ready
+8.59,8.77,10.0,8.67,9.16,Highly Job Ready
+4.2,5.7,5.39,3.82,6.17,Needs Improvement
+7.96,8.39,6.85,8.09,8.46,Job Ready
+2.53,3.53,3.67,5.63,3.39,Not Ready
+8.79,9.53,8.26,7.71,8.57,Highly Job Ready
+7.14,3.39,6.56,5.36,5.41,Needs Improvement
+5.38,5.34,7.27,5.16,5.35,Needs Improvement
+4.95,3.91,4.72,3.29,3.74,Not Ready
+3.56,2.71,3.41,4.77,1.81,Not Ready
+5.84,8.0,6.38,8.57,8.85,Job Ready
+4.87,6.76,2.94,3.22,3.45,Not Ready
+7.09,8.75,9.6,6.28,6.23,Job Ready
+5.21,0.5,3.43,3.61,1.79,Not Ready
+6.48,4.99,4.56,5.73,5.83,Needs Improvement
+5.1,9.05,6.54,9.04,6.07,Job Ready
+2.43,3.13,2.63,4.8,4.64,Not Ready
+4.88,5.19,6.4,5.64,5.99,Needs Improvement
+7.81,6.77,7.9,6.53,6.81,Job Ready
+8.67,8.73,8.79,9.67,8.79,Highly Job Ready
+3.95,3.13,3.19,4.5,2.26,Not Ready
+3.58,5.71,8.4,6.62,5.03,Needs Improvement
+8.97,9.38,5.0,7.22,6.69,Job Ready
+9.15,8.83,8.88,9.92,9.58,Highly Job Ready
+5.92,3.6,5.72,2.53,4.48,Not Ready
+9.35,9.29,8.08,9.44,8.74,Highly Job Ready
+5.09,6.6,5.46,5.37,7.66,Needs Improvement
+6.97,7.21,7.21,7.33,7.7,Job Ready
+8.67,6.82,6.92,6.26,6.38,Job Ready
+3.1,3.19,2.57,3.05,4.29,Not Ready
+7.99,6.53,6.9,8.09,5.81,Job Ready
+3.22,5.26,4.42,3.36,3.53,Not Ready
+7.15,8.03,6.17,7.11,6.91,Job Ready
+2.76,2.01,4.1,3.76,3.23,Not Ready
+4.42,4.68,4.32,1.86,4.42,Not Ready
+9.19,9.91,9.17,8.44,9.52,Highly Job Ready
+8.09,5.62,8.45,7.63,8.16,Job Ready
+9.48,9.65,8.68,9.33,8.08,Highly Job Ready
+6.4,6.55,7.84,8.05,6.46,Job Ready
+7.63,6.08,7.96,7.81,6.83,Job Ready
+7.9,7.51,7.44,6.45,5.82,Job Ready
+5.38,6.84,5.11,5.24,5.81,Needs Improvement
+7.53,7.11,7.09,7.34,7.36,Job Ready
+5.6,8.59,4.94,8.1,7.29,Job Ready
